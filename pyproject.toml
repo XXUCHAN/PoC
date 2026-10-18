@@ -1,0 +1,28 @@
+# 프로젝트 설치에 필요한 빌드 도구다. 실행 환경의 모델 설정과는 별개다.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+# Python 패키지 정보와 실제 실행 의존성만 정의한다.
+[project]
+name = "caer"
+version = "1.0.0"
+description = "CS2 context retrieval and evidence-based AI review PoC"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb>=1.1",      # 공개 메타데이터의 SQL 결합과 후보 선정
+    "pandas>=2.2",      # 틱 자료와 구간별 결과 처리
+    "numpy>=2",         # 거리·화면 통계 계산
+    "pyarrow>=18",      # 원본 Parquet 읽기와 스키마 확인
+    "streamlit>=1.66",  # 제출 시연 화면
+    "pillow>=11",       # 사진 읽기와 AI 입력 묶음 생성
+    "jsonschema>=4.20", # AI 응답 형식 검사
+]
+
+# 설치 후 caer 명령을 실행하면 CLI의 main 함수로 연결한다.
+[project.scripts]
+caer = "caer.interfaces.cli:main"
+
+# src 폴더의 패키지를 찾는다. sample 폴더는 README의 프로젝트 구조 그대로 함께 둔다.
+[tool.setuptools.packages.find]
+where = ["src"]
