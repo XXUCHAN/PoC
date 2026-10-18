@@ -1,0 +1,926 @@
+{
+  "version": "0.2.0",
+  "algorithm": "v7",
+  "variant": "persistent_balanced",
+  "source": {
+    "repo": "blanchon/opencs2_dataset",
+    "revision": "8d7deddcd30c081fb197b75f58b4a0fba1117b9d"
+  },
+  "case": {
+    "kill_id": "2392452-de_anubis-r04-k004",
+    "match_id": 2392452,
+    "map_name": "de_anubis",
+    "map_id": 2,
+    "round": 4,
+    "kill_ordinal": 4,
+    "tick": 24973,
+    "event_seconds": 39.015625,
+    "attacker_side": "ct",
+    "attacker_side_id": 1,
+    "attacker_player_slot": 4,
+    "victim_side": "t",
+    "victim_side_id": 2,
+    "victim_player_slot": 6,
+    "assister_player_slot": -1,
+    "weapon": "m4a1_silencer",
+    "weapon_id": 28,
+    "weapon_class": "rifle",
+    "weapon_class_id": 7,
+    "headshot": false,
+    "distance": 16.364017486572266,
+    "dmg_health": 30,
+    "hitgroup": "stomach",
+    "hitgroup_id": 4,
+    "noscope": false,
+    "through_smoke": true,
+    "penetrated": 0,
+    "wallbang": false,
+    "attacker_blind": false,
+    "attacker_kills_before": 0,
+    "attacker_kills_after": 1,
+    "ct_alive_before": 3,
+    "t_alive_before": 3,
+    "ct_alive_after": 3,
+    "t_alive_after": 2,
+    "attacker_alive_before": 3,
+    "opponent_alive_before": 3,
+    "attacker_alive_after": 3,
+    "opponent_alive_after": 2,
+    "time_since_previous_kill_s": 1.328125,
+    "time_to_next_kill_s": 1.8125,
+    "is_opening_kill": false,
+    "is_trade_within_5s": true,
+    "is_1v1_before": false,
+    "is_clutch_context": false,
+    "pov": {
+      "media_id": "2392452-de_anubis-r04-p04",
+      "player_slot": 4,
+      "duration_s": 60.28125,
+      "preview_video": {
+        "bytes": null,
+        "path": "hf://datasets/blanchon/opencs2_dataset@main/rounds/match_id=2392452/map_name=de_anubis/round=04/player=04/video.preview.mp4"
+      },
+      "ticks_parquet_path": "hf://datasets/blanchon/opencs2_dataset@main/rounds/match_id=2392452/map_name=de_anubis/round=04/player=04/ticks.parquet",
+      "preview_video_bytes": 12306472
+    },
+    "case_id": "7a5b762e8daf15bcffd5"
+  },
+  "synchronization": {
+    "status": "PASS_NUMERIC",
+    "event_tick": 24973,
+    "event_seconds": 39.015625,
+    "tick_t": 39.015625,
+    "absolute_error_s": 0.0,
+    "tolerance_s": 0.05,
+    "tick_min_s": 0.0,
+    "tick_max_s": 60.25,
+    "actual_video_duration_s": 60.25
+  },
+  "bins": [
+    {
+      "bin_id": 0,
+      "start_s": 9.015625,
+      "end_s": 11.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 1.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "anchor_scene_proximity_candidate": 0.1303916871547699,
+        "spatial_firearm_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "recency": 0.08333333333333333
+      },
+      "score": 1.2916666666666667,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "fire_state"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 1,
+      "start_s": 11.015625,
+      "end_s": 13.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.2265625,
+        "flash_state": 0.046875,
+        "he_state": 0.0703125,
+        "firearm_attack": 0.0,
+        "anchor_scene_proximity_candidate": 0.10738226771354675,
+        "spatial_firearm_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "recency": 0.16666666666666666
+      },
+      "score": 0.4397786458333333,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "fire_state",
+        "flash_state",
+        "he_state"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 2,
+      "start_s": 13.015625,
+      "end_s": 15.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.6875,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "anchor_scene_proximity_candidate": 0.14927853643894196,
+        "spatial_firearm_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "recency": 0.25
+      },
+      "score": 0.5546875,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "flash_state"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 3,
+      "start_s": 15.015625,
+      "end_s": 17.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.9609375,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "anchor_scene_proximity_candidate": 0.17090772092342377,
+        "spatial_firearm_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "recency": 0.3333333333333333
+      },
+      "score": 0.7672526041666666,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "flash_state"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 4,
+      "start_s": 17.015625,
+      "end_s": 19.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.6796875,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "anchor_scene_proximity_candidate": 0.17090772092342377,
+        "spatial_firearm_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "recency": 0.4166666666666667
+      },
+      "score": 0.6331380208333334,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "flash_state"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 5,
+      "start_s": 19.015625,
+      "end_s": 21.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.5390625,
+        "firearm_attack": 0.0859375,
+        "anchor_scene_proximity_candidate": 0.16465812921524048,
+        "spatial_firearm_attack": 0.014150307979434729,
+        "strong_obscuration": 0.0,
+        "recency": 0.5
+      },
+      "score": 0.5968192780856043,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "he_state",
+        "firearm_attack"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 6,
+      "start_s": 21.015625,
+      "end_s": 23.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.234375,
+        "he_state": 0.0703125,
+        "firearm_attack": 0.0,
+        "anchor_scene_proximity_candidate": 0.17167507112026215,
+        "spatial_firearm_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "recency": 0.5833333333333334
+      },
+      "score": 0.4820963541666667,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "flash_state",
+        "he_state"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 7,
+      "start_s": 23.015625,
+      "end_s": 25.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.578125,
+        "he_state": 0.0,
+        "firearm_attack": 0.0703125,
+        "anchor_scene_proximity_candidate": 0.1767907440662384,
+        "spatial_firearm_attack": 0.012430599192157388,
+        "strong_obscuration": 0.0,
+        "recency": 0.6666666666666666
+      },
+      "score": 0.7033628777678435,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "flash_state",
+        "firearm_attack"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 8,
+      "start_s": 25.015625,
+      "end_s": 27.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.1875,
+        "anchor_scene_proximity_candidate": 0.18550026416778564,
+        "spatial_firearm_attack": 0.03478129953145981,
+        "strong_obscuration": 0.0,
+        "recency": 0.75
+      },
+      "score": 0.39934690967202185,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "firearm_attack"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 9,
+      "start_s": 27.015625,
+      "end_s": 29.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "anchor_scene_proximity_candidate": 0.25861799716949463,
+        "spatial_firearm_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "recency": 0.8333333333333334
+      },
+      "score": 0.4166666666666667,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": false
+    },
+    {
+      "bin_id": 10,
+      "start_s": 29.015625,
+      "end_s": 31.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.1171875,
+        "firearm_attack": 0.0,
+        "anchor_scene_proximity_candidate": 0.3537883460521698,
+        "spatial_firearm_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "recency": 0.9166666666666666
+      },
+      "score": 0.5315755208333333,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "he_state"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 11,
+      "start_s": 31.015625,
+      "end_s": 33.015625,
+      "features": {
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.5546875,
+        "firearm_attack": 0.1484375,
+        "anchor_scene_proximity_candidate": 0.40600642561912537,
+        "spatial_firearm_attack": 0.06026657880283892,
+        "strong_obscuration": 0.0,
+        "recency": 1.0
+      },
+      "score": 0.8888662926619872,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "he_state",
+        "firearm_attack"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    }
+  ],
+  "methods": {
+    "proposed": [
+      0,
+      1,
+      3,
+      4,
+      10,
+      11
+    ],
+    "fixed": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "status": "ready",
+  "reason": null,
+  "extra_clip_seconds": 12.0,
+  "evaluation": "NOT_EVALUATED",
+  "ai_analysis": "NOT_RUN",
+  "presentation": {
+    "featured_bin_id": 3,
+    "evidence_frame_id": "b3_f3"
+  },
+  "source_frame_interval_s": 0.05,
+  "anchor": {
+    "start_s": 33.015625,
+    "end_s": 45.015625,
+    "actual_duration_s": 12.0,
+    "frame_tolerance_s": 0.05,
+    "path": "media/anchor.mp4"
+  },
+  "context": [
+    {
+      "start_s": 9.015625,
+      "end_s": 13.015625,
+      "actual_duration_s": 4.0,
+      "frame_tolerance_s": 0.05,
+      "path": "media/context_1.mp4"
+    },
+    {
+      "start_s": 15.015625,
+      "end_s": 19.015625,
+      "actual_duration_s": 4.0,
+      "frame_tolerance_s": 0.05,
+      "path": "media/context_2.mp4"
+    },
+    {
+      "start_s": 29.015625,
+      "end_s": 33.015625,
+      "actual_duration_s": 4.0,
+      "frame_tolerance_s": 0.05,
+      "path": "media/context_3.mp4"
+    }
+  ],
+  "fixed_context": [
+    {
+      "start_s": 21.015625,
+      "end_s": 33.015625,
+      "actual_duration_s": 12.0,
+      "frame_tolerance_s": 0.05,
+      "path": "media/fixed_1.mp4"
+    }
+  ],
+  "frames": [
+    {
+      "frame_id": "b0_f0",
+      "bin_id": 0,
+      "time_s": 9.265625,
+      "path": "frames/frame_000.jpg",
+      "sha256": "f1e6cff83911c1cd1bdd429bdccd55dd42849807069c7c9b83c007290d36b365"
+    },
+    {
+      "frame_id": "b0_f1",
+      "bin_id": 0,
+      "time_s": 9.765625,
+      "path": "frames/frame_001.jpg",
+      "sha256": "79519cbc4ee59adf6275c218e6c5cacbb1967a058696ea6cf530268d7bc59bff"
+    },
+    {
+      "frame_id": "b0_f2",
+      "bin_id": 0,
+      "time_s": 10.265625,
+      "path": "frames/frame_002.jpg",
+      "sha256": "329571c581dea4de8f0b128331e079bd15e211cc13b189b86525690c82de04db"
+    },
+    {
+      "frame_id": "b0_f3",
+      "bin_id": 0,
+      "time_s": 10.765625,
+      "path": "frames/frame_003.jpg",
+      "sha256": "f0b9ce23a344d30f3c94d03380470e593f3f6ecb7994c98c31c0330fd974c73d"
+    },
+    {
+      "frame_id": "b1_f0",
+      "bin_id": 1,
+      "time_s": 11.265625,
+      "path": "frames/frame_004.jpg",
+      "sha256": "9de7d024a3f2c90b6b9b3392a719500d52d6a7df76f7a494a43955457b074418"
+    },
+    {
+      "frame_id": "b1_f1",
+      "bin_id": 1,
+      "time_s": 11.765625,
+      "path": "frames/frame_005.jpg",
+      "sha256": "ae4eb358dc6cff65a251030d2c3e41a0f915d7208cfc4d5c90968aa418cfcdac"
+    },
+    {
+      "frame_id": "b1_f2",
+      "bin_id": 1,
+      "time_s": 12.265625,
+      "path": "frames/frame_006.jpg",
+      "sha256": "f77ea3295eb13d2a7ebcbab7b866d98ad29d747788b451beb8be15ab9bafaa9d"
+    },
+    {
+      "frame_id": "b1_f3",
+      "bin_id": 1,
+      "time_s": 12.765625,
+      "path": "frames/frame_007.jpg",
+      "sha256": "0bdc4cd3eb5e285f92b008fd42478dc3bf8d53c410900cce71213e59e2ae52dc"
+    },
+    {
+      "frame_id": "b2_f0",
+      "bin_id": 2,
+      "time_s": 13.265625,
+      "path": "frames/frame_008.jpg",
+      "sha256": "93ecf9686bcf00f2f440bfb71296590e95c3e0a2a213a5a88c55d0c18b6cec5f"
+    },
+    {
+      "frame_id": "b2_f1",
+      "bin_id": 2,
+      "time_s": 13.765625,
+      "path": "frames/frame_009.jpg",
+      "sha256": "173fb06e8f37e6c2b5f2540808d2b7ba5e231c5a0e6f7c428fdb23015cdc81ce"
+    },
+    {
+      "frame_id": "b2_f2",
+      "bin_id": 2,
+      "time_s": 14.265625,
+      "path": "frames/frame_010.jpg",
+      "sha256": "67e08f5f0c109a0df89ac4a0c723e2cef87d905827a23b52368e1920aa41fd74"
+    },
+    {
+      "frame_id": "b2_f3",
+      "bin_id": 2,
+      "time_s": 14.765625,
+      "path": "frames/frame_011.jpg",
+      "sha256": "eebdc0322ecaeb3771889ac9fe35b6f14fc362805b1168faf91a41f854ced7ce"
+    },
+    {
+      "frame_id": "b3_f0",
+      "bin_id": 3,
+      "time_s": 15.265625,
+      "path": "frames/frame_012.jpg",
+      "sha256": "5fc4cb90b7330d8e13552188a5adc255d7186247ace8e557218f241d20ae9cc8"
+    },
+    {
+      "frame_id": "b3_f1",
+      "bin_id": 3,
+      "time_s": 15.765625,
+      "path": "frames/frame_013.jpg",
+      "sha256": "807cf1cd18bdb44084500b6db1d37a92b1e576fb304b61785a9275bb700855aa"
+    },
+    {
+      "frame_id": "b3_f2",
+      "bin_id": 3,
+      "time_s": 16.265625,
+      "path": "frames/frame_014.jpg",
+      "sha256": "f39eb294549517d1c25453fbb5be389909e2580b728a2b1f7441b4878b33fddc"
+    },
+    {
+      "frame_id": "b3_f3",
+      "bin_id": 3,
+      "time_s": 16.765625,
+      "path": "frames/frame_015.jpg",
+      "sha256": "e2990108bfcb696c297484e72a04e551f6dfc717dcb00004b468f22934f476cc"
+    },
+    {
+      "frame_id": "b4_f0",
+      "bin_id": 4,
+      "time_s": 17.265625,
+      "path": "frames/frame_016.jpg",
+      "sha256": "11976c81332c6012b3f1884c71e608c41d9e5bf17d44c5561d22bad34a4700c0"
+    },
+    {
+      "frame_id": "b4_f1",
+      "bin_id": 4,
+      "time_s": 17.765625,
+      "path": "frames/frame_017.jpg",
+      "sha256": "d7b48669adaaaed915c512c39512ed27443e8cda5a5d7722c6e283f4b4f91423"
+    },
+    {
+      "frame_id": "b4_f2",
+      "bin_id": 4,
+      "time_s": 18.265625,
+      "path": "frames/frame_018.jpg",
+      "sha256": "0f075ae8dc8febfe1e376f67fe2ec067ac6c87cca9f18be3074aafba5201e7ca"
+    },
+    {
+      "frame_id": "b4_f3",
+      "bin_id": 4,
+      "time_s": 18.765625,
+      "path": "frames/frame_019.jpg",
+      "sha256": "17bac3745a557d7e560d4472edcdc089721b39a36e62492c58ada3c4f200d5b0"
+    },
+    {
+      "frame_id": "b5_f0",
+      "bin_id": 5,
+      "time_s": 19.265625,
+      "path": "frames/frame_020.jpg",
+      "sha256": "8eb3cf39386aae851cae1fa63bb16290894313d8788f62642aff0d74ceb9232e"
+    },
+    {
+      "frame_id": "b5_f1",
+      "bin_id": 5,
+      "time_s": 19.765625,
+      "path": "frames/frame_021.jpg",
+      "sha256": "3a8df04a87b1d18c02a56e6bc71684180a23f341d19cff8bca3fe7a49a799c7e"
+    },
+    {
+      "frame_id": "b5_f2",
+      "bin_id": 5,
+      "time_s": 20.265625,
+      "path": "frames/frame_022.jpg",
+      "sha256": "2ec3c6308018cb90e53a40ae2fff45dabe6d443b6974c4d63ad158a3480d34c0"
+    },
+    {
+      "frame_id": "b5_f3",
+      "bin_id": 5,
+      "time_s": 20.765625,
+      "path": "frames/frame_023.jpg",
+      "sha256": "0bab40523bc1e91b38e4a980fb6390d541a1a16898624042d475726cd32b4ca6"
+    },
+    {
+      "frame_id": "b6_f0",
+      "bin_id": 6,
+      "time_s": 21.265625,
+      "path": "frames/frame_024.jpg",
+      "sha256": "c69cf0200b5fac22059d9ea72ed492f2c1978c1e31abfcdd410814563e7177ed"
+    },
+    {
+      "frame_id": "b6_f1",
+      "bin_id": 6,
+      "time_s": 21.765625,
+      "path": "frames/frame_025.jpg",
+      "sha256": "b40e07a0a91dbcbc3c2a3d6d113e444527a7013d2cf51cd3d8cb024a2571d1d5"
+    },
+    {
+      "frame_id": "b6_f2",
+      "bin_id": 6,
+      "time_s": 22.265625,
+      "path": "frames/frame_026.jpg",
+      "sha256": "a61d30ff4ea4e35bd4d9d191914fcbac4ca4f7259b7dd3a86551782319613bec"
+    },
+    {
+      "frame_id": "b6_f3",
+      "bin_id": 6,
+      "time_s": 22.765625,
+      "path": "frames/frame_027.jpg",
+      "sha256": "98ef5d9c01286afc1fd5ba1e43615a2526aab11ac470465edbf1c18b1eb2565f"
+    },
+    {
+      "frame_id": "b7_f0",
+      "bin_id": 7,
+      "time_s": 23.265625,
+      "path": "frames/frame_028.jpg",
+      "sha256": "c42b8a8cfecd2a7a26c34d6fa95aaef39e55fc6f32cd96b46932b3430e8068f9"
+    },
+    {
+      "frame_id": "b7_f1",
+      "bin_id": 7,
+      "time_s": 23.765625,
+      "path": "frames/frame_029.jpg",
+      "sha256": "d407bdb0d8d431e3fe72d98c343cf1af17e6d9998ddaedf50f124102a955a814"
+    },
+    {
+      "frame_id": "b7_f2",
+      "bin_id": 7,
+      "time_s": 24.265625,
+      "path": "frames/frame_030.jpg",
+      "sha256": "3eccefa678b945ea6fd69d7303626d9176b314e730e39f43e3fcd9c5654b4ce1"
+    },
+    {
+      "frame_id": "b7_f3",
+      "bin_id": 7,
+      "time_s": 24.765625,
+      "path": "frames/frame_031.jpg",
+      "sha256": "a3289d7981f57c55de669189703ce0bb854fcf244b11eee4fa96ace6ad168370"
+    },
+    {
+      "frame_id": "b8_f0",
+      "bin_id": 8,
+      "time_s": 25.265625,
+      "path": "frames/frame_032.jpg",
+      "sha256": "dcc428ac4dcb9680500a1379bf2307a259dad72f01d283f54b7fc8bdae803586"
+    },
+    {
+      "frame_id": "b8_f1",
+      "bin_id": 8,
+      "time_s": 25.765625,
+      "path": "frames/frame_033.jpg",
+      "sha256": "da4128e3f9a42f1c6d94837fb7feed13820e8531011299662500c53ece306ede"
+    },
+    {
+      "frame_id": "b8_f2",
+      "bin_id": 8,
+      "time_s": 26.265625,
+      "path": "frames/frame_034.jpg",
+      "sha256": "eaa7ba08d59122bfe489bc2af5fe39400988b7f4ade1528aaad3752cae316842"
+    },
+    {
+      "frame_id": "b8_f3",
+      "bin_id": 8,
+      "time_s": 26.765625,
+      "path": "frames/frame_035.jpg",
+      "sha256": "1ecb1b5aa1cc82b5b8a36589eebfef301b3669a6b2f7ba5521d92261dc16a505"
+    },
+    {
+      "frame_id": "b9_f0",
+      "bin_id": 9,
+      "time_s": 27.265625,
+      "path": "frames/frame_036.jpg",
+      "sha256": "0935717386fea3841e35843959508c330f0f3476c6d39c5844f2409c9167c367"
+    },
+    {
+      "frame_id": "b9_f1",
+      "bin_id": 9,
+      "time_s": 27.765625,
+      "path": "frames/frame_037.jpg",
+      "sha256": "aad52c7d0ee256d65c9c9011e5dbb292e2e42a4f69d25406b8873270ea4f97c4"
+    },
+    {
+      "frame_id": "b9_f2",
+      "bin_id": 9,
+      "time_s": 28.265625,
+      "path": "frames/frame_038.jpg",
+      "sha256": "097f661d4cafe85123ea8e8b0787e2480d4926e6db18851d8e80b28e9756fb28"
+    },
+    {
+      "frame_id": "b9_f3",
+      "bin_id": 9,
+      "time_s": 28.765625,
+      "path": "frames/frame_039.jpg",
+      "sha256": "76ceda15fa2fa30ae0d40c0d6b3cb19bddf6830d07bbdac14cffe656b67640f0"
+    },
+    {
+      "frame_id": "b10_f0",
+      "bin_id": 10,
+      "time_s": 29.265625,
+      "path": "frames/frame_040.jpg",
+      "sha256": "a63f0d8c822d9030248c412d1f100cce3627e0f98b2fdcd27632d876c822bb06"
+    },
+    {
+      "frame_id": "b10_f1",
+      "bin_id": 10,
+      "time_s": 29.765625,
+      "path": "frames/frame_041.jpg",
+      "sha256": "eac46802572d512fe2c2584b889b8d789064a07aac42b006e0fac601f4da5660"
+    },
+    {
+      "frame_id": "b10_f2",
+      "bin_id": 10,
+      "time_s": 30.265625,
+      "path": "frames/frame_042.jpg",
+      "sha256": "bcf95cda6d56bd2f07627b68eaa0368694543666825579e0fe6526ec5e12f2f1"
+    },
+    {
+      "frame_id": "b10_f3",
+      "bin_id": 10,
+      "time_s": 30.765625,
+      "path": "frames/frame_043.jpg",
+      "sha256": "c5d776b09792d9d6358d949bb695884f30b367fad8486b6850b35dc30cc9ffc6"
+    },
+    {
+      "frame_id": "b11_f0",
+      "bin_id": 11,
+      "time_s": 31.265625,
+      "path": "frames/frame_044.jpg",
+      "sha256": "5fe713e1857a7cbb1b26486090910aa8c91b2abaef6675b405b76dd72a2f7347"
+    },
+    {
+      "frame_id": "b11_f1",
+      "bin_id": 11,
+      "time_s": 31.765625,
+      "path": "frames/frame_045.jpg",
+      "sha256": "4284e7af2bdf0d887985bf3f033d01e76a13f1aa445aad88956ca840e9049f62"
+    },
+    {
+      "frame_id": "b11_f2",
+      "bin_id": 11,
+      "time_s": 32.265625,
+      "path": "frames/frame_046.jpg",
+      "sha256": "2b639ff0837bcb8662854bd0366edf59d31f2fc32d7abf70cb6a4ff952c302ef"
+    },
+    {
+      "frame_id": "b11_f3",
+      "bin_id": 11,
+      "time_s": 32.765625,
+      "path": "frames/frame_047.jpg",
+      "sha256": "afff69f53f1acd93c67626db9cc160af531095f8e35d28b0b8f1081b32ba3831"
+    },
+    {
+      "frame_id": "anchor_f0",
+      "bin_id": null,
+      "time_s": 38.015625,
+      "path": "frames/frame_048.jpg",
+      "sha256": "b338e74f4e3e5135513c6e186d9b8711f5bede1c4049c5729fa90eb985c367bd"
+    },
+    {
+      "frame_id": "anchor_f1",
+      "bin_id": null,
+      "time_s": 38.515625,
+      "path": "frames/frame_049.jpg",
+      "sha256": "14f909a296f7bba623008d1ca8df2eb1cd905e84116df35b69aca8d835f75051"
+    },
+    {
+      "frame_id": "anchor_f2",
+      "bin_id": null,
+      "time_s": 39.015625,
+      "path": "frames/frame_050.jpg",
+      "sha256": "3147f53d2f2cd652445e5b4c6f9a9f6c6e495c12af74fc99937bb69a974be842"
+    },
+    {
+      "frame_id": "anchor_f3",
+      "bin_id": null,
+      "time_s": 39.515625,
+      "path": "frames/frame_051.jpg",
+      "sha256": "77583e6e945e475db21b7d8c85b795205bedac6e333a6853f0dcfc48019fe925"
+    }
+  ]
+}

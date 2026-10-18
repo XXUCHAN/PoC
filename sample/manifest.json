@@ -1,0 +1,8 @@
+{
+  "evaluation_sha256": "73acc0aabd08c47285e54d9ba8a430efb86717deff4bfb01bd3516c550701bf6",
+  "sample_manifests": {
+    "7a5b762e8daf15bcffd5": "c69b5b0841cbe38d7a653ce5a96df35dfa9d1e372c63696bbf28ad949f48e144",
+    "9ef21e25146cb3c4fd25": "492de28b90308d0bffd3ea2bb87c1098febf79e2691cd424d534a525d2a5a468"
+  },
+  "reanalysis_sha256": "b384b553b591f10850473fdb18f8f0ff1f3f7b83e0965b10d5aa8bd5785d671f"
+}

@@ -1,0 +1,1859 @@
+{
+  "scope": "40-match exploratory AI reference; not independent human Gold",
+  "reference_sha256": "77de2543ba2223d16c76d8ddb8d0ffb75382026ef8125cc05805f8445500690a",
+  "reference_locked_at": "2026-10-17T16:21:32.201463+00:00",
+  "protocol": {
+    "bin_seconds": 2,
+    "extra_video_seconds": 12,
+    "uncertain": "exclude equally",
+    "zero_relevant": "exclude from per-case recall; include selected negatives in precision"
+  },
+  "extension_decided_after_initial20": true,
+  "initial20_gate_passed": false,
+  "cases": [
+    {
+      "case_id": "090c187cda3a4aad2d1f",
+      "match_id": 2393133,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "relevant",
+        "1": "relevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          2,
+          3,
+          6,
+          7,
+          11
+        ],
+        "proposed": [
+          0,
+          1,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "0fc38500ad6a3f101db4",
+      "match_id": 2392263,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          4,
+          7,
+          8,
+          10,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "126c2bd86c560ef2e3c5",
+      "match_id": 2392536,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "uncertain",
+        "1": "uncertain",
+        "2": "irrelevant",
+        "3": "relevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          10
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "16bcf7e759072fa49aff",
+      "match_id": 2392960,
+      "map_name": "de_dust2",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "uncertain",
+        "9": "uncertain",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          4,
+          5,
+          7,
+          9
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "18e64cfc97157e3d55b4",
+      "match_id": 2393062,
+      "map_name": "de_mirage",
+      "labels": {
+        "0": "uncertain",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "irrelevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          2,
+          7,
+          8,
+          9,
+          11
+        ],
+        "proposed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "case_id": "1d2566f2573fc8108fec",
+      "match_id": 2393257,
+      "map_name": "de_nuke",
+      "labels": {
+        "0": "relevant",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "irrelevant",
+        "7": "uncertain",
+        "8": "uncertain",
+        "9": "relevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          3,
+          5,
+          6,
+          7,
+          10,
+          11
+        ],
+        "proposed": [
+          3,
+          4,
+          7,
+          8,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "24a9273f9adebccd5f46",
+      "match_id": 2392754,
+      "map_name": "de_mirage",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "relevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          3,
+          4,
+          9,
+          10,
+          11
+        ],
+        "proposed": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "case_id": "284eb7c65e11544977e4",
+      "match_id": 2392356,
+      "map_name": "de_dust2",
+      "labels": {
+        "0": "relevant",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "uncertain",
+        "8": "relevant",
+        "9": "irrelevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          2,
+          4,
+          6,
+          7,
+          11
+        ],
+        "proposed": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "case_id": "2a750db5989afe83c1c0",
+      "match_id": 2392588,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "irrelevant",
+        "1": "uncertain",
+        "2": "irrelevant",
+        "3": "uncertain",
+        "4": "uncertain",
+        "5": "uncertain",
+        "6": "uncertain",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          2,
+          3,
+          7,
+          9
+        ],
+        "proposed": [
+          1,
+          2,
+          5,
+          6,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "37f0a8db1571305755ee",
+      "match_id": 2392664,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "irrelevant",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "irrelevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          5,
+          6,
+          9,
+          11
+        ],
+        "proposed": [
+          1,
+          2,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "423ef234605459dbca89",
+      "match_id": 2392292,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "uncertain",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "irrelevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          2,
+          3,
+          5,
+          9,
+          10,
+          11
+        ],
+        "proposed": [
+          5,
+          6,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "4e01571e6f31d0fb94a1",
+      "match_id": 2392762,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "relevant",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          11
+        ],
+        "proposed": [
+          2,
+          3,
+          4,
+          5,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "5bab205dcdc0359e979c",
+      "match_id": 2392209,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "uncertain",
+        "1": "uncertain",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "uncertain",
+        "10": "relevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          2,
+          3,
+          5,
+          9,
+          10
+        ],
+        "proposed": [
+          0,
+          1,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "5bda4267de0e5223102f",
+      "match_id": 2393259,
+      "map_name": "de_dust2",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "6c920a1ba89dd521ad92",
+      "match_id": 2392484,
+      "map_name": "de_dust2",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "uncertain"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          2,
+          3,
+          5,
+          8,
+          9
+        ],
+        "proposed": [
+          5,
+          6,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "75824a9852ed9d99837e",
+      "match_id": 2393033,
+      "map_name": "de_dust2",
+      "labels": {
+        "0": "uncertain",
+        "1": "uncertain",
+        "2": "uncertain",
+        "3": "uncertain",
+        "4": "uncertain",
+        "5": "uncertain",
+        "6": "uncertain",
+        "7": "relevant",
+        "8": "irrelevant",
+        "9": "relevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          2,
+          5,
+          7,
+          10,
+          11
+        ],
+        "proposed": [
+          1,
+          2,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "case_id": "7734fba995afa75dea68",
+      "match_id": 2392283,
+      "map_name": "de_mirage",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          5,
+          6,
+          7,
+          8,
+          10,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "7a5b762e8daf15bcffd5",
+      "match_id": 2392452,
+      "map_name": "de_anubis",
+      "labels": {
+        "0": "relevant",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          4,
+          5,
+          7,
+          8,
+          10,
+          11
+        ],
+        "proposed": [
+          0,
+          1,
+          3,
+          4,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "86764f1b69241cfd2ade",
+      "match_id": 2392313,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "uncertain",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          2,
+          5,
+          7,
+          8,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "917ea54caa1d54743772",
+      "match_id": 2392300,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "uncertain",
+        "1": "uncertain",
+        "2": "irrelevant",
+        "3": "uncertain",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "uncertain",
+        "8": "uncertain",
+        "9": "irrelevant",
+        "10": "irrelevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          3,
+          5,
+          7,
+          9,
+          10
+        ],
+        "proposed": [
+          0,
+          1,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "9307da39e34ec8cace44",
+      "match_id": 2392782,
+      "map_name": "de_dust2",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "irrelevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          6,
+          9,
+          10,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "99d59037c1bb3631d38f",
+      "match_id": 2393275,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "uncertain",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          3,
+          4,
+          5,
+          7,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "9ef21e25146cb3c4fd25",
+      "match_id": 2392334,
+      "map_name": "de_dust2",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "a0f3c6b1855ea4783043",
+      "match_id": 2392660,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "irrelevant",
+        "6": "relevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          2,
+          4,
+          5,
+          7,
+          10,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "a32d43cfbff5f75059da",
+      "match_id": 2392460,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "relevant",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "relevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          3,
+          6,
+          9,
+          10
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "ac1ca23012c272f03e38",
+      "match_id": 2393345,
+      "map_name": "de_mirage",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          2,
+          4,
+          6,
+          10
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "b13d0f475652a32a4b2c",
+      "match_id": 2392413,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "uncertain",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "irrelevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          3,
+          4,
+          9,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "ba14bb390b7b6a8d22c9",
+      "match_id": 2393223,
+      "map_name": "de_mirage",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          4,
+          6,
+          7,
+          10
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "bca0e31e8b84dfdc4be6",
+      "match_id": 2392207,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "uncertain",
+        "1": "irrelevant",
+        "2": "uncertain",
+        "3": "uncertain",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "relevant",
+        "7": "irrelevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          3,
+          4,
+          6,
+          7,
+          8,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "bcaf762cc9a076ddcdfd",
+      "match_id": 2393227,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "relevant",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "irrelevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "relevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          2,
+          5,
+          6,
+          8
+        ],
+        "proposed": [
+          0,
+          1,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "case_id": "bd2f8f9b503600076565",
+      "match_id": 2393166,
+      "map_name": "de_mirage",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "uncertain",
+        "4": "uncertain",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "relevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          4,
+          5,
+          9,
+          10,
+          11
+        ],
+        "proposed": [
+          3,
+          4,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "cbb591e4f7cb2b788838",
+      "match_id": 2393042,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "irrelevant",
+        "11": "uncertain"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          4,
+          6,
+          8,
+          9,
+          10
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "cc82e951748518463e89",
+      "match_id": 2393019,
+      "map_name": "de_inferno",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          2,
+          4,
+          5,
+          8,
+          9
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "cdd589217087e3b33c53",
+      "match_id": 2392733,
+      "map_name": "de_mirage",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          2,
+          6,
+          7,
+          8,
+          10
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "d28837cb114f06301e25",
+      "match_id": 2392282,
+      "map_name": "de_dust2",
+      "labels": {
+        "0": "uncertain",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "relevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          4,
+          6,
+          10,
+          11
+        ],
+        "proposed": [
+          1,
+          2,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "e2438faf0fe1d00b9625",
+      "match_id": 2392208,
+      "map_name": "de_inferno",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          6,
+          8,
+          9,
+          10,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "ebbe28cf1ff225731786",
+      "match_id": 2392288,
+      "map_name": "de_dust2",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "relevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          2,
+          3,
+          4,
+          6,
+          9,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "f81b1d5c8376e4e20404",
+      "match_id": 2393066,
+      "map_name": "de_anubis",
+      "labels": {
+        "0": "uncertain",
+        "1": "irrelevant",
+        "2": "uncertain",
+        "3": "uncertain",
+        "4": "irrelevant",
+        "5": "irrelevant",
+        "6": "uncertain",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "relevant",
+        "10": "relevant",
+        "11": "relevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          3,
+          8,
+          10,
+          11
+        ],
+        "proposed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "f81cf21e5f9400ed6999",
+      "match_id": 2392593,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "irrelevant",
+        "1": "irrelevant",
+        "2": "irrelevant",
+        "3": "irrelevant",
+        "4": "irrelevant",
+        "5": "uncertain",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "irrelevant",
+        "11": "irrelevant"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          1,
+          4,
+          5,
+          7,
+          9,
+          10
+        ],
+        "proposed": [
+          5,
+          6,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "case_id": "fecd3e20b8371c08a0ab",
+      "match_id": 2392712,
+      "map_name": "de_ancient",
+      "labels": {
+        "0": "relevant",
+        "1": "relevant",
+        "2": "relevant",
+        "3": "irrelevant",
+        "4": "relevant",
+        "5": "relevant",
+        "6": "irrelevant",
+        "7": "irrelevant",
+        "8": "irrelevant",
+        "9": "irrelevant",
+        "10": "relevant",
+        "11": "uncertain"
+      },
+      "methods": {
+        "fixed": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "random": [
+          0,
+          1,
+          5,
+          9,
+          10,
+          11
+        ],
+        "proposed": [
+          0,
+          1,
+          4,
+          5,
+          10,
+          11
+        ]
+      }
+    }
+  ],
+  "expected_scores": {
+    "fixed": {
+      "cases": 40,
+      "positive_cases": 34,
+      "gold_zero_cases": 6,
+      "uncertain_bins": 46,
+      "true_positive": 122,
+      "gold_positive": 192,
+      "selected_evaluable": 225,
+      "micro_precision": 0.5422222222222223,
+      "micro_recall": 0.6354166666666666,
+      "micro_f1": 0.5851318944844125,
+      "macro_recall": 0.7244344707580002,
+      "macro_f1": 0.6256905483981609
+    },
+    "random": {
+      "cases": 40,
+      "positive_cases": 34,
+      "gold_zero_cases": 6,
+      "uncertain_bins": 46,
+      "true_positive": 96,
+      "gold_positive": 192,
+      "selected_evaluable": 219,
+      "micro_precision": 0.4383561643835616,
+      "micro_recall": 0.5,
+      "micro_f1": 0.46715328467153283,
+      "macro_recall": 0.497041847041847,
+      "macro_f1": 0.4684658286734411
+    },
+    "proposed": {
+      "cases": 40,
+      "positive_cases": 34,
+      "gold_zero_cases": 6,
+      "uncertain_bins": 46,
+      "true_positive": 140,
+      "gold_positive": 192,
+      "selected_evaluable": 215,
+      "micro_precision": 0.6511627906976745,
+      "micro_recall": 0.7291666666666666,
+      "micro_f1": 0.6879606879606879,
+      "macro_recall": 0.8026907732790085,
+      "macro_f1": 0.7360647330370513
+    }
+  }
+}

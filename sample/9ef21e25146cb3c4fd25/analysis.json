@@ -1,0 +1,506 @@
+{
+  "status": "AI_ANALYZED",
+  "created_at": "2026-10-17T17:19:30.546766+00:00",
+  "case_id": "9ef21e25146cb3c4fd25",
+  "analysis": {
+    "summary": "6·7·8·11번 구간에서 총구 화염이 보이며, 앵커와 연결되는 B 구역 장면에서의 선행 발사로 관찰됩니다. 9번은 연막탄 준비, 10번은 소총을 든 이동·유지 장면입니다. 투척 완료나 연막 효과, 인물의 신원은 확인되지 않습니다.",
+    "cheating_assessment": "not_assessed",
+    "same_victim_identity": "unconfirmed",
+    "audio_assessed": false,
+    "findings": [
+      {
+        "bin_id": 6,
+        "category": "firing_visible",
+        "scene_relevance": "relevant",
+        "observation": "오른쪽 벽과 회색 덮개 상자 옆에서 안뜰을 향해 소총을 들고 있으며, b6_f2에 총구 화염이 보입니다.",
+        "scene_link": "중앙 아치, 왼쪽 상자 구조물과 오른쪽 벽의 배치가 앵커의 안뜰과 연결됩니다.",
+        "uncertainty": "발사 대상과 명중 여부는 확인할 수 없습니다.",
+        "evidence_frame_ids": [
+          "b6_f2",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 7,
+        "category": "firing_visible",
+        "scene_relevance": "relevant",
+        "observation": "원통형 통과 낮은 상자 너머를 향해 소총을 들고 있으며, b7_f3에 총구 화염이 보입니다. 오른쪽 문 부근에 작은 인물 형태가 보입니다.",
+        "scene_link": "통, 중앙 아치와 오른쪽 문이 앵커에서 바라보는 안뜰의 구조와 연결됩니다.",
+        "uncertainty": "작은 인물의 소속과 신원, 실제 발사 대상인지는 불명확합니다.",
+        "evidence_frame_ids": [
+          "b7_f1",
+          "b7_f3",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 8,
+        "category": "firing_visible",
+        "scene_relevance": "relevant",
+        "observation": "b8_f0에서 소총 총구 화염이 보입니다. 나머지 표본에서는 통과 낮은 상자 너머로 소총을 겨누고 있습니다.",
+        "scene_link": "앵커와 연결되는 같은 안뜰의 중앙 및 오른쪽 문 방향에서 선행 발사가 보입니다.",
+        "uncertainty": "발사 대상, 명중 여부 및 인물의 동일성은 확인할 수 없습니다.",
+        "evidence_frame_ids": [
+          "b8_f0",
+          "b8_f3",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 9,
+        "category": "utility_visible",
+        "scene_relevance": "relevant",
+        "observation": "처음에는 소총을 들고 있으며, 이후 장비 표시가 Smoke Grenade로 바뀝니다. b9_f2와 b9_f3에서는 손에 든 수류탄과 준비 동작이 보입니다.",
+        "scene_link": "앵커와 연결되는 안뜰에서 연막탄을 준비하는 장면입니다.",
+        "uncertainty": "손에서 떨어지는 투척체나 투척 완료, 연막 발생은 이 구간에서 확인되지 않습니다. 입력 표시만으로 투척을 확정할 수 없습니다.",
+        "evidence_frame_ids": [
+          "b9_f0",
+          "b9_f2",
+          "b9_f3",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 10,
+        "category": "movement_or_hold",
+        "scene_relevance": "irrelevant",
+        "observation": "소총을 다시 들어 올리는 손동작 뒤 소총을 유지하며, 시점이 통 앞에서 오른쪽 벽과 회색 덮개 상자 쪽으로 바뀝니다.",
+        "scene_link": "B 표지와 안뜰 구조는 앵커와 연결되지만, 이 구간에서 확인되는 것은 이동과 소총 유지입니다.",
+        "uncertainty": "처음 손동작의 세부 성격은 불명확하며, 앞 구간 연막탄의 투척 여부나 효과를 입증하지 않습니다.",
+        "evidence_frame_ids": [
+          "b10_f0",
+          "b10_f2",
+          "b10_f3",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 11,
+        "category": "firing_visible",
+        "scene_relevance": "relevant",
+        "observation": "오른쪽 벽 옆 회색 덮개 상자를 끼고 안뜰을 향해 소총을 들고 있으며, b11_f1과 b11_f2에 총구 화염이 보입니다.",
+        "scene_link": "가까운 회색 덮개 상자, 오른쪽 벽과 왼쪽 B 표지가 앵커의 엄폐물 및 사격 장면과 직접 연결됩니다.",
+        "uncertainty": "발사 대상과 명중 여부는 확인되지 않습니다. 회색 덮개 상자 자체는 연막의 증거가 아닙니다.",
+        "evidence_frame_ids": [
+          "b11_f1",
+          "b11_f2",
+          "anchor_f1",
+          "anchor_f2"
+        ]
+      }
+    ]
+  },
+  "visual_crosscheck": {
+    "reviews": [
+      {
+        "bin_id": 6,
+        "verdict": "supported",
+        "reason": "b6_f2에 총구 화염이 보이며 중앙 아치와 오른쪽 벽, 상자 배치가 앵커의 안뜰과 일치합니다. 대상과 명중 여부를 확정하지 않은 설명도 적절합니다.",
+        "evidence_frame_ids": [
+          "b6_f2",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 7,
+        "verdict": "supported",
+        "reason": "b7_f3에 총구 화염이 보이고 오른쪽 문 부근에 작은 인물 형태가 관찰됩니다. 안뜰 구조가 앵커와 연결되며 인물의 신원과 발사 대상 여부는 적절히 유보했습니다.",
+        "evidence_frame_ids": [
+          "b7_f1",
+          "b7_f3",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 8,
+        "verdict": "supported",
+        "reason": "b8_f0에 총구 화염이 명확하며 통과 낮은 상자, 아치 및 오른쪽 문 배치가 앵커의 안뜰과 연결됩니다. 대상이나 명중을 단정하지 않습니다.",
+        "evidence_frame_ids": [
+          "b8_f0",
+          "b8_f3",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 9,
+        "verdict": "supported",
+        "reason": "소총에서 연막탄으로 장비가 바뀌고 손에 든 수류탄을 준비하는 동작이 보입니다. 앵커와 같은 안뜰에서의 장비 준비로 연결되며 투척 완료나 연막 효과는 확인되지 않는다고 정확히 제한했습니다.",
+        "evidence_frame_ids": [
+          "b9_f0",
+          "b9_f2",
+          "b9_f3",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 10,
+        "verdict": "supported",
+        "reason": "소총을 들어 올린 뒤 통 앞에서 오른쪽 벽과 덮개 상자 쪽으로 시점이 이동합니다. 앵커와의 공간적 연결은 확인되지만 단순 이동·유지로 분류하고 관련성을 낮춘 판단이 적절합니다.",
+        "evidence_frame_ids": [
+          "b10_f0",
+          "b10_f2",
+          "b10_f3",
+          "anchor_f1"
+        ]
+      },
+      {
+        "bin_id": 11,
+        "verdict": "supported",
+        "reason": "b11_f1과 b11_f2에서 총구 화염이 보입니다. 오른쪽 벽과 회색 덮개 상자, 왼쪽 B 표지가 앵커 장면과 연결되며 상자를 연막으로 해석하지 않은 설명도 적절합니다.",
+        "evidence_frame_ids": [
+          "b11_f1",
+          "b11_f2",
+          "anchor_f1",
+          "anchor_f2"
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "bin_id": 6,
+      "category": "firing_visible",
+      "scene_relevance": "relevant",
+      "observation": "오른쪽 벽과 회색 덮개 상자 옆에서 안뜰을 향해 소총을 들고 있으며, b6_f2에 총구 화염이 보입니다.",
+      "scene_link": "중앙 아치, 왼쪽 상자 구조물과 오른쪽 벽의 배치가 앵커의 안뜰과 연결됩니다.",
+      "uncertainty": "발사 대상과 명중 여부는 확인할 수 없습니다.",
+      "evidence_frame_ids": [
+        "b6_f2",
+        "anchor_f1"
+      ],
+      "start_s": 30.546875,
+      "end_s": 32.546875,
+      "evidence": [
+        {
+          "frame_id": "b6_f2",
+          "bin_id": 6,
+          "time_s": 31.796875,
+          "sha256": "e67173945f4adb56da9dd27f071789fb446de3510a2919be48e2aec5d8da48bc"
+        },
+        {
+          "frame_id": "anchor_f1",
+          "bin_id": null,
+          "time_s": 48.046875,
+          "sha256": "334ba7f74ef9acc9278f58d9c18728fc3f130d64e5db4e8ebc33423f9fc26dec"
+        }
+      ],
+      "crosscheck": {
+        "bin_id": 6,
+        "verdict": "supported",
+        "reason": "b6_f2에 총구 화염이 보이며 중앙 아치와 오른쪽 벽, 상자 배치가 앵커의 안뜰과 일치합니다. 대상과 명중 여부를 확정하지 않은 설명도 적절합니다.",
+        "evidence_frame_ids": [
+          "b6_f2",
+          "anchor_f1"
+        ]
+      }
+    },
+    {
+      "bin_id": 7,
+      "category": "firing_visible",
+      "scene_relevance": "relevant",
+      "observation": "원통형 통과 낮은 상자 너머를 향해 소총을 들고 있으며, b7_f3에 총구 화염이 보입니다. 오른쪽 문 부근에 작은 인물 형태가 보입니다.",
+      "scene_link": "통, 중앙 아치와 오른쪽 문이 앵커에서 바라보는 안뜰의 구조와 연결됩니다.",
+      "uncertainty": "작은 인물의 소속과 신원, 실제 발사 대상인지는 불명확합니다.",
+      "evidence_frame_ids": [
+        "b7_f1",
+        "b7_f3",
+        "anchor_f1"
+      ],
+      "start_s": 32.546875,
+      "end_s": 34.546875,
+      "evidence": [
+        {
+          "frame_id": "b7_f1",
+          "bin_id": 7,
+          "time_s": 33.296875,
+          "sha256": "b0d4c3a38ee303c4936de62e695de04233bb79907a23b0f20d9ddf2d293d2416"
+        },
+        {
+          "frame_id": "b7_f3",
+          "bin_id": 7,
+          "time_s": 34.296875,
+          "sha256": "405a42964b69334d4d7863f161b9d43a2de46c6353b0ec9d1145efc344f49184"
+        },
+        {
+          "frame_id": "anchor_f1",
+          "bin_id": null,
+          "time_s": 48.046875,
+          "sha256": "334ba7f74ef9acc9278f58d9c18728fc3f130d64e5db4e8ebc33423f9fc26dec"
+        }
+      ],
+      "crosscheck": {
+        "bin_id": 7,
+        "verdict": "supported",
+        "reason": "b7_f3에 총구 화염이 보이고 오른쪽 문 부근에 작은 인물 형태가 관찰됩니다. 안뜰 구조가 앵커와 연결되며 인물의 신원과 발사 대상 여부는 적절히 유보했습니다.",
+        "evidence_frame_ids": [
+          "b7_f1",
+          "b7_f3",
+          "anchor_f1"
+        ]
+      }
+    },
+    {
+      "bin_id": 8,
+      "category": "firing_visible",
+      "scene_relevance": "relevant",
+      "observation": "b8_f0에서 소총 총구 화염이 보입니다. 나머지 표본에서는 통과 낮은 상자 너머로 소총을 겨누고 있습니다.",
+      "scene_link": "앵커와 연결되는 같은 안뜰의 중앙 및 오른쪽 문 방향에서 선행 발사가 보입니다.",
+      "uncertainty": "발사 대상, 명중 여부 및 인물의 동일성은 확인할 수 없습니다.",
+      "evidence_frame_ids": [
+        "b8_f0",
+        "b8_f3",
+        "anchor_f1"
+      ],
+      "start_s": 34.546875,
+      "end_s": 36.546875,
+      "evidence": [
+        {
+          "frame_id": "b8_f0",
+          "bin_id": 8,
+          "time_s": 34.796875,
+          "sha256": "aa35246ee9f3c08e09abfb479ae869b7663bd9dc80e7b72cb7d507705a406b23"
+        },
+        {
+          "frame_id": "b8_f3",
+          "bin_id": 8,
+          "time_s": 36.296875,
+          "sha256": "503d7c7d703d6c70647b9283befb264e2eccc8931777d082960e31da3a13597d"
+        },
+        {
+          "frame_id": "anchor_f1",
+          "bin_id": null,
+          "time_s": 48.046875,
+          "sha256": "334ba7f74ef9acc9278f58d9c18728fc3f130d64e5db4e8ebc33423f9fc26dec"
+        }
+      ],
+      "crosscheck": {
+        "bin_id": 8,
+        "verdict": "supported",
+        "reason": "b8_f0에 총구 화염이 명확하며 통과 낮은 상자, 아치 및 오른쪽 문 배치가 앵커의 안뜰과 연결됩니다. 대상이나 명중을 단정하지 않습니다.",
+        "evidence_frame_ids": [
+          "b8_f0",
+          "b8_f3",
+          "anchor_f1"
+        ]
+      }
+    },
+    {
+      "bin_id": 9,
+      "category": "utility_visible",
+      "scene_relevance": "relevant",
+      "observation": "처음에는 소총을 들고 있으며, 이후 장비 표시가 Smoke Grenade로 바뀝니다. b9_f2와 b9_f3에서는 손에 든 수류탄과 준비 동작이 보입니다.",
+      "scene_link": "앵커와 연결되는 안뜰에서 연막탄을 준비하는 장면입니다.",
+      "uncertainty": "손에서 떨어지는 투척체나 투척 완료, 연막 발생은 이 구간에서 확인되지 않습니다. 입력 표시만으로 투척을 확정할 수 없습니다.",
+      "evidence_frame_ids": [
+        "b9_f0",
+        "b9_f2",
+        "b9_f3",
+        "anchor_f1"
+      ],
+      "start_s": 36.546875,
+      "end_s": 38.546875,
+      "evidence": [
+        {
+          "frame_id": "b9_f0",
+          "bin_id": 9,
+          "time_s": 36.796875,
+          "sha256": "90fd315ce2bcfab74c33c7c6264fefcba9e3f1caed94af57780d0a561eba0f37"
+        },
+        {
+          "frame_id": "b9_f2",
+          "bin_id": 9,
+          "time_s": 37.796875,
+          "sha256": "3481f82063b9bf84befc4e589aa372fc68c98a127c7fc7396bbadd21fe16e45b"
+        },
+        {
+          "frame_id": "b9_f3",
+          "bin_id": 9,
+          "time_s": 38.296875,
+          "sha256": "7cdbceb0fcf3804415188b32d25b38271f11a43e22df590dcc25f763ebafa2bb"
+        },
+        {
+          "frame_id": "anchor_f1",
+          "bin_id": null,
+          "time_s": 48.046875,
+          "sha256": "334ba7f74ef9acc9278f58d9c18728fc3f130d64e5db4e8ebc33423f9fc26dec"
+        }
+      ],
+      "crosscheck": {
+        "bin_id": 9,
+        "verdict": "supported",
+        "reason": "소총에서 연막탄으로 장비가 바뀌고 손에 든 수류탄을 준비하는 동작이 보입니다. 앵커와 같은 안뜰에서의 장비 준비로 연결되며 투척 완료나 연막 효과는 확인되지 않는다고 정확히 제한했습니다.",
+        "evidence_frame_ids": [
+          "b9_f0",
+          "b9_f2",
+          "b9_f3",
+          "anchor_f1"
+        ]
+      }
+    },
+    {
+      "bin_id": 10,
+      "category": "movement_or_hold",
+      "scene_relevance": "irrelevant",
+      "observation": "소총을 다시 들어 올리는 손동작 뒤 소총을 유지하며, 시점이 통 앞에서 오른쪽 벽과 회색 덮개 상자 쪽으로 바뀝니다.",
+      "scene_link": "B 표지와 안뜰 구조는 앵커와 연결되지만, 이 구간에서 확인되는 것은 이동과 소총 유지입니다.",
+      "uncertainty": "처음 손동작의 세부 성격은 불명확하며, 앞 구간 연막탄의 투척 여부나 효과를 입증하지 않습니다.",
+      "evidence_frame_ids": [
+        "b10_f0",
+        "b10_f2",
+        "b10_f3",
+        "anchor_f1"
+      ],
+      "start_s": 38.546875,
+      "end_s": 40.546875,
+      "evidence": [
+        {
+          "frame_id": "b10_f0",
+          "bin_id": 10,
+          "time_s": 38.796875,
+          "sha256": "b7afc73c9119dff151328f972958e6861b33e1e9af74045b68ddeeb095dcbb8c"
+        },
+        {
+          "frame_id": "b10_f2",
+          "bin_id": 10,
+          "time_s": 39.796875,
+          "sha256": "25a3697865407cd91d1fcb5029326e36f6510fd104841ca656b58986c84a4226"
+        },
+        {
+          "frame_id": "b10_f3",
+          "bin_id": 10,
+          "time_s": 40.296875,
+          "sha256": "fec52061bb920098ca20d2f423b62bcefa99ac8016433754680752bf868bc404"
+        },
+        {
+          "frame_id": "anchor_f1",
+          "bin_id": null,
+          "time_s": 48.046875,
+          "sha256": "334ba7f74ef9acc9278f58d9c18728fc3f130d64e5db4e8ebc33423f9fc26dec"
+        }
+      ],
+      "crosscheck": {
+        "bin_id": 10,
+        "verdict": "supported",
+        "reason": "소총을 들어 올린 뒤 통 앞에서 오른쪽 벽과 덮개 상자 쪽으로 시점이 이동합니다. 앵커와의 공간적 연결은 확인되지만 단순 이동·유지로 분류하고 관련성을 낮춘 판단이 적절합니다.",
+        "evidence_frame_ids": [
+          "b10_f0",
+          "b10_f2",
+          "b10_f3",
+          "anchor_f1"
+        ]
+      }
+    },
+    {
+      "bin_id": 11,
+      "category": "firing_visible",
+      "scene_relevance": "relevant",
+      "observation": "오른쪽 벽 옆 회색 덮개 상자를 끼고 안뜰을 향해 소총을 들고 있으며, b11_f1과 b11_f2에 총구 화염이 보입니다.",
+      "scene_link": "가까운 회색 덮개 상자, 오른쪽 벽과 왼쪽 B 표지가 앵커의 엄폐물 및 사격 장면과 직접 연결됩니다.",
+      "uncertainty": "발사 대상과 명중 여부는 확인되지 않습니다. 회색 덮개 상자 자체는 연막의 증거가 아닙니다.",
+      "evidence_frame_ids": [
+        "b11_f1",
+        "b11_f2",
+        "anchor_f1",
+        "anchor_f2"
+      ],
+      "start_s": 40.546875,
+      "end_s": 42.546875,
+      "evidence": [
+        {
+          "frame_id": "b11_f1",
+          "bin_id": 11,
+          "time_s": 41.296875,
+          "sha256": "3fcfcbea15770de6158f38d5744acf824ded53a795d6460206809a0f46c54aa8"
+        },
+        {
+          "frame_id": "b11_f2",
+          "bin_id": 11,
+          "time_s": 41.796875,
+          "sha256": "3d3829f13666b80b43ddc5aea4d3ee32379dac01da5775e042c8b1c0b3fa4446"
+        },
+        {
+          "frame_id": "anchor_f1",
+          "bin_id": null,
+          "time_s": 48.046875,
+          "sha256": "334ba7f74ef9acc9278f58d9c18728fc3f130d64e5db4e8ebc33423f9fc26dec"
+        },
+        {
+          "frame_id": "anchor_f2",
+          "bin_id": null,
+          "time_s": 48.546875,
+          "sha256": "7693baed964a6d4f85181cacbc16b95dc87dc2788357a3393807f5c03466fc02"
+        }
+      ],
+      "crosscheck": {
+        "bin_id": 11,
+        "verdict": "supported",
+        "reason": "b11_f1과 b11_f2에서 총구 화염이 보입니다. 오른쪽 벽과 회색 덮개 상자, 왼쪽 B 표지가 앵커 장면과 연결되며 상자를 연막으로 해석하지 않은 설명도 적절합니다.",
+        "evidence_frame_ids": [
+          "b11_f1",
+          "b11_f2",
+          "anchor_f1",
+          "anchor_f2"
+        ]
+      }
+    }
+  ],
+  "traces": [
+    {
+      "provider": "codex",
+      "model": "gpt-6.1-sol",
+      "cli_version": "codex-cli 0.163.0-alpha.10.2",
+      "usage": [
+        {
+          "input_tokens": 21536,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1192,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "event_types": [
+        "thread.started",
+        "turn.started",
+        "item.completed",
+        "turn.completed"
+      ],
+      "item_types": [
+        "agent_message"
+      ],
+      "tools_used": false,
+      "elapsed_s": 25.536
+    },
+    {
+      "provider": "codex",
+      "model": "gpt-6.1-sol",
+      "cli_version": "codex-cli 0.163.0-alpha.10.2",
+      "usage": [
+        {
+          "input_tokens": 22377,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 563,
+          "reasoning_output_tokens": 0
+        }
+      ],
+      "event_types": [
+        "thread.started",
+        "turn.started",
+        "item.completed",
+        "turn.completed"
+      ],
+      "item_types": [
+        "agent_message"
+      ],
+      "tools_used": false,
+      "elapsed_s": 14.165
+    }
+  ],
+  "human_review": "NOT_PERFORMED",
+  "independent_ground_truth": false,
+  "note": "Two AI passes over sampled attacker frames; not a cheating verdict or human validation",
+  "provenance": {
+    "kind": "recorded_actual_model_output",
+    "original_report_sha256": "d3787401da173f22055f49abd7ec86df134ae5c79b9868373266301b6681e85b"
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "status": "AI_ANALYZED",
+  "created_at": "2026-10-18T07:31:15.960100+00:00",
+  "case_id": "7a5b762e8daf15bcffd5",
+  "analysis": {
+    "summary": "요청된 6개 구간에서 이동, 투척물 준비 및 일부 투척 동작이 보입니다. 투척물과 앵커 장면의 연결이나 효과는 확인되지 않습니다.",
+    "cheating_assessment": "not_assessed",
+    "same_victim_identity": "unconfirmed",
+    "audio_assessed": false,
+    "findings": [
+      {
+        "bin_id": 0,
+        "category": "utility_visible",
+        "scene_relevance": "uncertain",
+        "observation": "소이탄을 든 채 기둥과 주황색 가림막 옆으로 이동합니다. 통로에 인물 형상이 보입니다.",
+        "scene_link": "앵커의 야외 계단 통로와 직접 연결되는지는 확인되지 않습니다.",
+        "uncertainty": "소이탄 방출과 효과, 인물의 소속은 확인할 수 없습니다.",
+        "evidence_frame_ids": [
+          "b0_f0",
+          "b0_f2",
+          "b0_f3"
+        ]
+      },
+      {
+        "bin_id": 1,
+        "category": "movement_or_hold",
+        "scene_relevance": "irrelevant",
+        "observation": "출입구 부근 인물을 바라보다가 칼로 전환하고 실내 계단 쪽으로 이동합니다. 첫 프레임에는 소이탄 장비 표시가 남아 있습니다.",
+        "scene_link": "보이는 행동은 일반 이동과 장비 전환이며, 앵커에 연결되는 투척이나 사격은 확인되지 않습니다.",
+        "uncertainty": "인물의 소속과 이후 이동 경로는 확인할 수 없습니다.",
+        "evidence_frame_ids": [
+          "b1_f0",
+          "b1_f1",
+          "b1_f2",
+          "b1_f3"
+        ]
+      },
+      {
+        "bin_id": 3,
+        "category": "utility_visible",
+        "scene_relevance": "uncertain",
+        "observation": "실내 상자와 기둥 옆에서 위쪽 창문 방향을 보며 섬광탄을 준비합니다. 마지막 프레임에는 손을 떠난 것으로 보이는 작은 투척물체가 공중에 보입니다.",
+        "scene_link": "투척 방향은 실내 상부이지만 앵커 계단 통로로 이어지는지는 불명확합니다.",
+        "uncertainty": "작은 물체의 정확한 경로, 도착 지점과 섬광 효과는 확인되지 않습니다.",
+        "evidence_frame_ids": [
+          "b3_f2",
+          "b3_f3"
+        ]
+      },
+      {
+        "bin_id": 4,
+        "category": "utility_visible",
+        "scene_relevance": "uncertain",
+        "observation": "같은 실내 상부를 향해 섬광탄을 든 손과 팔을 뻗는 동작이 보인 뒤 칼을 들고 이동합니다.",
+        "scene_link": "실내 투척 준비 장면으로 보이나 앵커의 야외 계단과 연결되는 시각적 근거는 부족합니다.",
+        "uncertainty": "방출된 물체를 명확히 식별하기 어려워 실제 방출과 효과는 확정할 수 없습니다. 마우스 입력 표시만으로 방출을 판단하지 않았습니다.",
+        "evidence_frame_ids": [
+          "b4_f0",
+          "b4_f1",
+          "b4_f2",
+          "b4_f3"
+        ]
+      },
+      {
+        "bin_id": 10,
+        "category": "movement_or_hold",
+        "scene_relevance": "irrelevant",
+        "observation": "실내 계단에서 고폭탄 장비 표시가 보이고, 이후 칼을 든 채 아치형 출구 쪽으로 이동합니다.",
+        "scene_link": "야외로 향하는 이동은 보이지만 앵커 장면에 연결되는 투척이나 사격은 확인되지 않습니다.",
+        "uncertainty": "첫 프레임의 입력 표시와 장비 이름만으로 고폭탄 방출을 확인할 수 없습니다.",
+        "evidence_frame_ids": [
+          "b10_f0",
+          "b10_f1",
+          "b10_f2",
+          "b10_f3"
+        ]
+      },
+      {
+        "bin_id": 11,
+        "category": "utility_visible",
+        "scene_relevance": "uncertain",
+        "observation": "야외 아치 통로로 나온 뒤 고폭탄을 손에 들고 이동하며, 마지막에는 소총으로 전환합니다.",
+        "scene_link": "석조 야외 구역이지만 앵커의 계단 통로와 정확히 어떻게 연결되는지는 확인되지 않습니다.",
+        "uncertainty": "고폭탄 방출이나 폭발은 확인되지 않습니다. 마지막 프레임의 마우스 입력만으로 사격을 확정할 수 없습니다.",
+        "evidence_frame_ids": [
+          "b11_f0",
+          "b11_f1",
+          "b11_f2",
+          "b11_f3"
+        ]
+      }
+    ]
+  },
+  "visual_crosscheck": {
+    "reviews": [
+      {
+        "bin_id": 0,
+        "verdict": "supported",
+        "reason": "소이탄을 든 손, 기둥과 주황색 가림막, 통로의 인물이 보입니다. 방출·효과와 앵커 연결을 확정하지 않은 설명이 타당합니다.",
+        "evidence_frame_ids": [
+          "b0_f0",
+          "b0_f2",
+          "b0_f3"
+        ]
+      },
+      {
+        "bin_id": 1,
+        "verdict": "supported",
+        "reason": "출입구 인물, 칼 전환과 실내 계단 방향 이동이 보입니다. 일반 이동으로 분류하고 앵커 관련 투척·사격을 주장하지 않았습니다.",
+        "evidence_frame_ids": [
+          "b1_f0",
+          "b1_f1",
+          "b1_f2",
+          "b1_f3"
+        ]
+      },
+      {
+        "bin_id": 3,
+        "verdict": "supported",
+        "reason": "상부 창문을 향한 섬광탄 준비와 이후 공중의 작은 물체가 보입니다. 방출을 추정으로 표현하고 경로·효과·앵커 연결은 제한했습니다.",
+        "evidence_frame_ids": [
+          "b3_f2",
+          "b3_f3"
+        ]
+      },
+      {
+        "bin_id": 4,
+        "verdict": "supported",
+        "reason": "섬광탄을 든 손과 팔의 동작 뒤 칼을 든 이동이 보입니다. 실제 방출과 효과를 확정하지 않은 설명이 이미지에 부합합니다.",
+        "evidence_frame_ids": [
+          "b4_f0",
+          "b4_f1",
+          "b4_f2",
+          "b4_f3"
+        ]
+      },
+      {
+        "bin_id": 10,
+        "verdict": "supported",
+        "reason": "고폭탄 표시가 있는 실내 계단 장면에서 칼을 들고 아치형 출구로 이동합니다. 입력 표시를 방출 근거로 삼지 않고 일반 이동으로 분류했습니다.",
+        "evidence_frame_ids": [
+          "b10_f0",
+          "b10_f1",
+          "b10_f2",
+          "b10_f3"
+        ]
+      },
+      {
+        "bin_id": 11,
+        "verdict": "supported",
+        "reason": "야외 아치 통로에서 고폭탄을 들었다가 소총으로 전환하는 모습이 보입니다. 방출·폭발·사격이나 앵커와의 연결을 확정하지 않은 관찰입니다.",
+        "evidence_frame_ids": [
+          "b11_f0",
+          "b11_f1",
+          "b11_f2",
+          "b11_f3"
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "bin_id": 0,
+      "category": "utility_visible",
+      "scene_relevance": "uncertain",
+      "observation": "소이탄을 든 채 기둥과 주황색 가림막 옆으로 이동합니다. 통로에 인물 형상이 보입니다.",
+      "scene_link": "앵커의 야외 계단 통로와 직접 연결되는지는 확인되지 않습니다.",
+      "uncertainty": "소이탄 방출과 효과, 인물의 소속은 확인할 수 없습니다.",
+      "evidence_frame_ids": [
+        "b0_f0",
+        "b0_f2",
+        "b0_f3"
+      ],
+      "start_s": 9.015625,
+      "end_s": 11.015625,
+      "crosscheck": {
+        "bin_id": 0,
+        "verdict": "supported",
+        "reason": "소이탄을 든 손, 기둥과 주황색 가림막, 통로의 인물이 보입니다. 방출·효과와 앵커 연결을 확정하지 않은 설명이 타당합니다.",
+        "evidence_frame_ids": [
+          "b0_f0",
+          "b0_f2",
+          "b0_f3"
+        ]
+      }
+    },
+    {
+      "bin_id": 1,
+      "category": "movement_or_hold",
+      "scene_relevance": "irrelevant",
+      "observation": "출입구 부근 인물을 바라보다가 칼로 전환하고 실내 계단 쪽으로 이동합니다. 첫 프레임에는 소이탄 장비 표시가 남아 있습니다.",
+      "scene_link": "보이는 행동은 일반 이동과 장비 전환이며, 앵커에 연결되는 투척이나 사격은 확인되지 않습니다.",
+      "uncertainty": "인물의 소속과 이후 이동 경로는 확인할 수 없습니다.",
+      "evidence_frame_ids": [
+        "b1_f0",
+        "b1_f1",
+        "b1_f2",
+        "b1_f3"
+      ],
+      "start_s": 11.015625,
+      "end_s": 13.015625,
+      "crosscheck": {
+        "bin_id": 1,
+        "verdict": "supported",
+        "reason": "출입구 인물, 칼 전환과 실내 계단 방향 이동이 보입니다. 일반 이동으로 분류하고 앵커 관련 투척·사격을 주장하지 않았습니다.",
+        "evidence_frame_ids": [
+          "b1_f0",
+          "b1_f1",
+          "b1_f2",
+          "b1_f3"
+        ]
+      }
+    },
+    {
+      "bin_id": 3,
+      "category": "utility_visible",
+      "scene_relevance": "uncertain",
+      "observation": "실내 상자와 기둥 옆에서 위쪽 창문 방향을 보며 섬광탄을 준비합니다. 마지막 프레임에는 손을 떠난 것으로 보이는 작은 투척물체가 공중에 보입니다.",
+      "scene_link": "투척 방향은 실내 상부이지만 앵커 계단 통로로 이어지는지는 불명확합니다.",
+      "uncertainty": "작은 물체의 정확한 경로, 도착 지점과 섬광 효과는 확인되지 않습니다.",
+      "evidence_frame_ids": [
+        "b3_f2",
+        "b3_f3"
+      ],
+      "start_s": 15.015625,
+      "end_s": 17.015625,
+      "crosscheck": {
+        "bin_id": 3,
+        "verdict": "supported",
+        "reason": "상부 창문을 향한 섬광탄 준비와 이후 공중의 작은 물체가 보입니다. 방출을 추정으로 표현하고 경로·효과·앵커 연결은 제한했습니다.",
+        "evidence_frame_ids": [
+          "b3_f2",
+          "b3_f3"
+        ]
+      }
+    },
+    {
+      "bin_id": 4,
+      "category": "utility_visible",
+      "scene_relevance": "uncertain",
+      "observation": "같은 실내 상부를 향해 섬광탄을 든 손과 팔을 뻗는 동작이 보인 뒤 칼을 들고 이동합니다.",
+      "scene_link": "실내 투척 준비 장면으로 보이나 앵커의 야외 계단과 연결되는 시각적 근거는 부족합니다.",
+      "uncertainty": "방출된 물체를 명확히 식별하기 어려워 실제 방출과 효과는 확정할 수 없습니다. 마우스 입력 표시만으로 방출을 판단하지 않았습니다.",
+      "evidence_frame_ids": [
+        "b4_f0",
+        "b4_f1",
+        "b4_f2",
+        "b4_f3"
+      ],
+      "start_s": 17.015625,
+      "end_s": 19.015625,
+      "crosscheck": {
+        "bin_id": 4,
+        "verdict": "supported",
+        "reason": "섬광탄을 든 손과 팔의 동작 뒤 칼을 든 이동이 보입니다. 실제 방출과 효과를 확정하지 않은 설명이 이미지에 부합합니다.",
+        "evidence_frame_ids": [
+          "b4_f0",
+          "b4_f1",
+          "b4_f2",
+          "b4_f3"
+        ]
+      }
+    },
+    {
+      "bin_id": 10,
+      "category": "movement_or_hold",
+      "scene_relevance": "irrelevant",
+      "observation": "실내 계단에서 고폭탄 장비 표시가 보이고, 이후 칼을 든 채 아치형 출구 쪽으로 이동합니다.",
+      "scene_link": "야외로 향하는 이동은 보이지만 앵커 장면에 연결되는 투척이나 사격은 확인되지 않습니다.",
+      "uncertainty": "첫 프레임의 입력 표시와 장비 이름만으로 고폭탄 방출을 확인할 수 없습니다.",
+      "evidence_frame_ids": [
+        "b10_f0",
+        "b10_f1",
+        "b10_f2",
+        "b10_f3"
+      ],
+      "start_s": 29.015625,
+      "end_s": 31.015625,
+      "crosscheck": {
+        "bin_id": 10,
+        "verdict": "supported",
+        "reason": "고폭탄 표시가 있는 실내 계단 장면에서 칼을 들고 아치형 출구로 이동합니다. 입력 표시를 방출 근거로 삼지 않고 일반 이동으로 분류했습니다.",
+        "evidence_frame_ids": [
+          "b10_f0",
+          "b10_f1",
+          "b10_f2",
+          "b10_f3"
+        ]
+      }
+    },
+    {
+      "bin_id": 11,
+      "category": "utility_visible",
+      "scene_relevance": "uncertain",
+      "observation": "야외 아치 통로로 나온 뒤 고폭탄을 손에 들고 이동하며, 마지막에는 소총으로 전환합니다.",
+      "scene_link": "석조 야외 구역이지만 앵커의 계단 통로와 정확히 어떻게 연결되는지는 확인되지 않습니다.",
+      "uncertainty": "고폭탄 방출이나 폭발은 확인되지 않습니다. 마지막 프레임의 마우스 입력만으로 사격을 확정할 수 없습니다.",
+      "evidence_frame_ids": [
+        "b11_f0",
+        "b11_f1",
+        "b11_f2",
+        "b11_f3"
+      ],
+      "start_s": 31.015625,
+      "end_s": 33.015625,
+      "crosscheck": {
+        "bin_id": 11,
+        "verdict": "supported",
+        "reason": "야외 아치 통로에서 고폭탄을 들었다가 소총으로 전환하는 모습이 보입니다. 방출·폭발·사격이나 앵커와의 연결을 확정하지 않은 관찰입니다.",
+        "evidence_frame_ids": [
+          "b11_f0",
+          "b11_f1",
+          "b11_f2",
+          "b11_f3"
+        ]
+      }
+    }
+  ],
+  "traces": [
+    {
+      "provider": "codex",
+      "model": "gpt-6.1-sol",
+      "cli_version": "codex-cli 0.163.0-alpha.10.2",
+      "usage": [
+        {
+          "input_tokens": 21524,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1160,
+          "reasoning_output_tokens": 53
+        }
+      ],
+      "event_types": [
+        "thread.started",
+        "turn.started",
+        "item.completed",
+        "turn.completed"
+      ],
+      "item_types": [
+        "agent_message"
+      ],
+      "tools_used": false,
+      "elapsed_s": 29.301
+    },
+    {
+      "provider": "codex",
+      "model": "gpt-6.1-sol",
+      "cli_version": "codex-cli 0.163.0-alpha.10.2",
+      "usage": [
+        {
+          "input_tokens": 22290,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 541,
+          "reasoning_output_tokens": 39
+        }
+      ],
+      "event_types": [
+        "thread.started",
+        "turn.started",
+        "item.completed",
+        "turn.completed"
+      ],
+      "item_types": [
+        "agent_message"
+      ],
+      "tools_used": false,
+      "elapsed_s": 14.365
+    }
+  ],
+  "human_review": "NOT_PERFORMED",
+  "independent_ground_truth": false,
+  "note": "Two AI passes over sampled attacker frames; not a cheating verdict or human validation",
+  "provenance": {
+    "kind": "recorded_actual_model_output",
+    "original_report_sha256": "f4c024dfef1626f69cf41bf5264bb038ede1ff84ea11b6ff678f7a3ad5baeb77"
+  }
+}

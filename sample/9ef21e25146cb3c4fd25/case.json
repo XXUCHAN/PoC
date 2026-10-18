@@ -1,0 +1,976 @@
+{
+  "version": "0.2.0",
+  "algorithm": "v7",
+  "variant": "persistent_balanced",
+  "source": {
+    "repo": "blanchon/opencs2_dataset",
+    "revision": "8d7deddcd30c081fb197b75f58b4a0fba1117b9d"
+  },
+  "case": {
+    "kill_id": "2392334-de_dust2-r02-k000",
+    "match_id": 2392334,
+    "map_name": "de_dust2",
+    "map_id": 4,
+    "round": 2,
+    "kill_ordinal": 0,
+    "tick": 68757,
+    "event_seconds": 48.546875,
+    "attacker_side": "ct",
+    "attacker_side_id": 1,
+    "attacker_player_slot": 6,
+    "victim_side": "t",
+    "victim_side_id": 2,
+    "victim_player_slot": 4,
+    "assister_player_slot": -1,
+    "weapon": "m4a1",
+    "weapon_id": 27,
+    "weapon_class": "rifle",
+    "weapon_class_id": 7,
+    "headshot": true,
+    "distance": 26.726560592651367,
+    "dmg_health": 19,
+    "hitgroup": "head",
+    "hitgroup_id": 2,
+    "noscope": false,
+    "through_smoke": false,
+    "penetrated": 1,
+    "wallbang": true,
+    "attacker_blind": false,
+    "attacker_kills_before": 0,
+    "attacker_kills_after": 1,
+    "ct_alive_before": 5,
+    "t_alive_before": 5,
+    "ct_alive_after": 5,
+    "t_alive_after": 4,
+    "attacker_alive_before": 5,
+    "opponent_alive_before": 5,
+    "attacker_alive_after": 5,
+    "opponent_alive_after": 4,
+    "time_since_previous_kill_s": null,
+    "time_to_next_kill_s": 1.234375,
+    "is_opening_kill": true,
+    "is_trade_within_5s": false,
+    "is_1v1_before": false,
+    "is_clutch_context": false,
+    "pov": {
+      "media_id": "2392334-de_dust2-r02-p06",
+      "player_slot": 6,
+      "duration_s": 57.0,
+      "preview_video": {
+        "bytes": null,
+        "path": "hf://datasets/blanchon/opencs2_dataset@main/rounds/match_id=2392334/map_name=de_dust2/round=02/player=06/video.preview.mp4"
+      },
+      "ticks_parquet_path": "hf://datasets/blanchon/opencs2_dataset@main/rounds/match_id=2392334/map_name=de_dust2/round=02/player=06/ticks.parquet",
+      "preview_video_bytes": 11339334
+    },
+    "case_id": "9ef21e25146cb3c4fd25"
+  },
+  "synchronization": {
+    "status": "PASS_NUMERIC",
+    "event_tick": 68757,
+    "event_seconds": 48.546875,
+    "tick_t": 48.546875,
+    "absolute_error_s": 0.0,
+    "tolerance_s": 0.05,
+    "tick_min_s": 0.0,
+    "tick_max_s": 57.0,
+    "actual_video_duration_s": 57.0
+  },
+  "bins": [
+    {
+      "bin_id": 0,
+      "start_s": 18.546875,
+      "end_s": 20.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.0,
+        "utility_aftereffect": 0.15364583333333337,
+        "partial_obscuration": 0.18333333333333335,
+        "flash": 0.0,
+        "recency": 0.08333333333333333,
+        "anchor_scene_proximity_candidate": 0.9353523254394531,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "spatial_firearm_attack": 0.0
+      },
+      "score": 0.041666666666666664,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": false
+    },
+    {
+      "bin_id": 1,
+      "start_s": 20.546875,
+      "end_s": 22.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.0,
+        "utility_aftereffect": 0.0,
+        "partial_obscuration": 0.25,
+        "flash": 0.0,
+        "recency": 0.16666666666666666,
+        "anchor_scene_proximity_candidate": 0.9290814399719238,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "spatial_firearm_attack": 0.0
+      },
+      "score": 0.08333333333333333,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": false
+    },
+    {
+      "bin_id": 2,
+      "start_s": 22.546875,
+      "end_s": 24.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.0,
+        "utility_aftereffect": 0.0,
+        "partial_obscuration": 0.11666666666666667,
+        "flash": 0.0,
+        "recency": 0.25,
+        "anchor_scene_proximity_candidate": 0.8278504610061646,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "spatial_firearm_attack": 0.0
+      },
+      "score": 0.125,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": false
+    },
+    {
+      "bin_id": 3,
+      "start_s": 24.546875,
+      "end_s": 26.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.0,
+        "utility_aftereffect": 0.0,
+        "partial_obscuration": 0.16666666666666669,
+        "flash": 0.0,
+        "recency": 0.3333333333333333,
+        "anchor_scene_proximity_candidate": 0.8958840370178223,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "spatial_firearm_attack": 0.0
+      },
+      "score": 0.16666666666666666,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": false
+    },
+    {
+      "bin_id": 4,
+      "start_s": 26.546875,
+      "end_s": 28.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.0,
+        "utility_aftereffect": 0.0,
+        "partial_obscuration": 0.26666666666666666,
+        "flash": 0.0,
+        "recency": 0.4166666666666667,
+        "anchor_scene_proximity_candidate": 0.9372773170471191,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "spatial_firearm_attack": 0.0
+      },
+      "score": 0.20833333333333334,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": false
+    },
+    {
+      "bin_id": 5,
+      "start_s": 28.546875,
+      "end_s": 30.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.0859375,
+        "utility_aftereffect": 0.0,
+        "partial_obscuration": 0.3333333333333333,
+        "flash": 0.0,
+        "recency": 0.5,
+        "anchor_scene_proximity_candidate": 0.929047167301178,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.07983999093994498,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0859375,
+        "spatial_firearm_attack": 0.07983999093994498
+      },
+      "score": 0.3058879936579615,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "firearm_attack"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 6,
+      "start_s": 30.546875,
+      "end_s": 32.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.140625,
+        "utility_aftereffect": 0.0,
+        "partial_obscuration": 0.13333333333333333,
+        "flash": 0.0,
+        "recency": 0.5833333333333334,
+        "anchor_scene_proximity_candidate": 0.8864164352416992,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.12465231120586395,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.140625,
+        "spatial_firearm_attack": 0.12465231120586395
+      },
+      "score": 0.37892328451077145,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "firearm_attack"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 7,
+      "start_s": 32.546875,
+      "end_s": 34.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.0390625,
+        "utility_aftereffect": 0.0,
+        "partial_obscuration": 0.13333333333333333,
+        "flash": 0.0,
+        "recency": 0.6666666666666666,
+        "anchor_scene_proximity_candidate": 0.7779996395111084,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.030390610918402672,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0390625,
+        "spatial_firearm_attack": 0.030390610918402672
+      },
+      "score": 0.3546067609762152,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "firearm_attack"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 8,
+      "start_s": 34.546875,
+      "end_s": 36.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.0625,
+        "utility_aftereffect": 0.0,
+        "partial_obscuration": 0.13333333333333333,
+        "flash": 0.0,
+        "recency": 0.75,
+        "anchor_scene_proximity_candidate": 0.7733297944068909,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.04833311215043068,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0625,
+        "spatial_firearm_attack": 0.04833311215043068
+      },
+      "score": 0.4088331785053015,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "firearm_attack"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 9,
+      "start_s": 36.546875,
+      "end_s": 38.546875,
+      "features": {
+        "utility_equipped": 0.625,
+        "gun_attack": 0.0,
+        "utility_aftereffect": 0.0,
+        "partial_obscuration": 0.09999999999999999,
+        "flash": 0.0,
+        "recency": 0.8333333333333334,
+        "anchor_scene_proximity_candidate": 0.7449228763580322,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.625,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "spatial_firearm_attack": 0.0
+      },
+      "score": 1.9791666666666667,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "smoke_state"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    },
+    {
+      "bin_id": 10,
+      "start_s": 38.546875,
+      "end_s": 40.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.0,
+        "utility_aftereffect": 0.9166666666666666,
+        "partial_obscuration": 0.06666666666666667,
+        "flash": 0.0,
+        "recency": 0.9166666666666666,
+        "anchor_scene_proximity_candidate": 0.7775486707687378,
+        "utility_release": 1.0,
+        "spatial_gun_attack": 0.0,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.0,
+        "spatial_firearm_attack": 0.0
+      },
+      "score": 0.4583333333333333,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": false
+    },
+    {
+      "bin_id": 11,
+      "start_s": 40.546875,
+      "end_s": 42.546875,
+      "features": {
+        "utility_equipped": 0.0,
+        "gun_attack": 0.171875,
+        "utility_aftereffect": 0.75,
+        "partial_obscuration": 0.16666666666666669,
+        "flash": 0.0,
+        "recency": 1.0,
+        "anchor_scene_proximity_candidate": 0.9285296201705933,
+        "utility_release": 0.0,
+        "spatial_gun_attack": 0.15959102846682072,
+        "strong_obscuration": 0.0,
+        "smoke_state": 0.0,
+        "fire_state": 0.0,
+        "flash_state": 0.0,
+        "he_state": 0.0,
+        "firearm_attack": 0.171875,
+        "spatial_firearm_attack": 0.15959102846682072
+      },
+      "score": 0.6117137199267745,
+      "weights": {
+        "smoke_state": 2.5,
+        "fire_state": 1.25,
+        "flash_state": 0.625,
+        "he_state": 0.625,
+        "spatial_firearm_attack": 0.7,
+        "strong_obscuration": 1.0,
+        "recency": 0.5
+      },
+      "observed": [
+        "firearm_attack"
+      ],
+      "inferred": [
+        "anchor_scene_proximity_candidate"
+      ],
+      "confidence_label": "candidate",
+      "supported": true
+    }
+  ],
+  "methods": {
+    "proposed": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "fixed": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "anchor": {
+    "start_s": 42.546875,
+    "end_s": 54.546875,
+    "path": "media/anchor.mp4",
+    "actual_duration_s": 12.0,
+    "frame_tolerance_s": 0.05
+  },
+  "context": [
+    {
+      "start_s": 30.546875,
+      "end_s": 42.546875,
+      "path": "media/context_1.mp4",
+      "actual_duration_s": 12.0,
+      "frame_tolerance_s": 0.05
+    }
+  ],
+  "frames": [
+    {
+      "frame_id": "b0_f0",
+      "bin_id": 0,
+      "time_s": 18.796875,
+      "path": "frames/frame_000.jpg",
+      "sha256": "5d49a4887d3db3e60ecd59c98108d32a0960ae33d787f18c9b894fab083d09e7"
+    },
+    {
+      "frame_id": "b0_f1",
+      "bin_id": 0,
+      "time_s": 19.296875,
+      "path": "frames/frame_001.jpg",
+      "sha256": "e63b58c29d2a673a693756a2219fd39eb51ac9a574a260c5c1e7694f131b609e"
+    },
+    {
+      "frame_id": "b0_f2",
+      "bin_id": 0,
+      "time_s": 19.796875,
+      "path": "frames/frame_002.jpg",
+      "sha256": "39ae1e3ad23258e6bb3f93b45172b7f0ad22d59a2872e0b471692f1f9e04ad68"
+    },
+    {
+      "frame_id": "b0_f3",
+      "bin_id": 0,
+      "time_s": 20.296875,
+      "path": "frames/frame_003.jpg",
+      "sha256": "d45eee95ffef6b7e069f27e8b05039b2a900b2570d3cd3d8886c1eebfd25be5f"
+    },
+    {
+      "frame_id": "b1_f0",
+      "bin_id": 1,
+      "time_s": 20.796875,
+      "path": "frames/frame_004.jpg",
+      "sha256": "47c72fb786eb2bbfc5b1706adebd537a3661ce43d54bb104ea7bb4b9b58c6995"
+    },
+    {
+      "frame_id": "b1_f1",
+      "bin_id": 1,
+      "time_s": 21.296875,
+      "path": "frames/frame_005.jpg",
+      "sha256": "257182bf934056f6cf2970873da94183f1a3388961cff92e653b9cef4e429220"
+    },
+    {
+      "frame_id": "b1_f2",
+      "bin_id": 1,
+      "time_s": 21.796875,
+      "path": "frames/frame_006.jpg",
+      "sha256": "c1a4af803ca298370f032afb9d5130104bea8cf78b39853325fbcdfec9f39672"
+    },
+    {
+      "frame_id": "b1_f3",
+      "bin_id": 1,
+      "time_s": 22.296875,
+      "path": "frames/frame_007.jpg",
+      "sha256": "dab07cbd6fb20c5487dd8535bb847719229a9bcdf408deca8683f04378ea20b2"
+    },
+    {
+      "frame_id": "b2_f0",
+      "bin_id": 2,
+      "time_s": 22.796875,
+      "path": "frames/frame_008.jpg",
+      "sha256": "53ac9afd75a63e95deaf99a6d7b3d25b9139481863685365a43c9f1654e7cbce"
+    },
+    {
+      "frame_id": "b2_f1",
+      "bin_id": 2,
+      "time_s": 23.296875,
+      "path": "frames/frame_009.jpg",
+      "sha256": "4aea878b74e8d95c337d7c8c37366c236016418a1e30476844e479784e5dac42"
+    },
+    {
+      "frame_id": "b2_f2",
+      "bin_id": 2,
+      "time_s": 23.796875,
+      "path": "frames/frame_010.jpg",
+      "sha256": "a8ec144363f50b5cf961769ab691b10fa4d2fbeec7f4c9b0ece3d5a249c75f9b"
+    },
+    {
+      "frame_id": "b2_f3",
+      "bin_id": 2,
+      "time_s": 24.296875,
+      "path": "frames/frame_011.jpg",
+      "sha256": "b3f4dc224bd8c94fbcb47de934c2336a2fc74e7515e9684e8cd034e015df08b5"
+    },
+    {
+      "frame_id": "b3_f0",
+      "bin_id": 3,
+      "time_s": 24.796875,
+      "path": "frames/frame_012.jpg",
+      "sha256": "ce9ea061477cacdf03a4dce3cd0a8f81aa6e0f0c730444274735eda0b2693e7d"
+    },
+    {
+      "frame_id": "b3_f1",
+      "bin_id": 3,
+      "time_s": 25.296875,
+      "path": "frames/frame_013.jpg",
+      "sha256": "1c3aa44d3139fd165b0dccb548dc2520289a154d56fb2f969620147ef997b0d2"
+    },
+    {
+      "frame_id": "b3_f2",
+      "bin_id": 3,
+      "time_s": 25.796875,
+      "path": "frames/frame_014.jpg",
+      "sha256": "c0aa013eb74dc20b40db26be5161b0668f13b255aedf8dc0d1662f5c8ae58a75"
+    },
+    {
+      "frame_id": "b3_f3",
+      "bin_id": 3,
+      "time_s": 26.296875,
+      "path": "frames/frame_015.jpg",
+      "sha256": "a12f2e89b262daf67050cfd19d873b825e9521841242483d4c5eb194681ba54f"
+    },
+    {
+      "frame_id": "b4_f0",
+      "bin_id": 4,
+      "time_s": 26.796875,
+      "path": "frames/frame_016.jpg",
+      "sha256": "03e2a1dbf109741ae977d31c0a891c9ff9f658ec9f0534f1438427c6721b08c2"
+    },
+    {
+      "frame_id": "b4_f1",
+      "bin_id": 4,
+      "time_s": 27.296875,
+      "path": "frames/frame_017.jpg",
+      "sha256": "60f8d37323b44341ad8609255200bc1f13701aa9ba9fbd27a501dac18144f1fc"
+    },
+    {
+      "frame_id": "b4_f2",
+      "bin_id": 4,
+      "time_s": 27.796875,
+      "path": "frames/frame_018.jpg",
+      "sha256": "47f7d52f63ffe021299475bbc889664c4125bdeaae212cd83884a1a3d1c9b82b"
+    },
+    {
+      "frame_id": "b4_f3",
+      "bin_id": 4,
+      "time_s": 28.296875,
+      "path": "frames/frame_019.jpg",
+      "sha256": "669194b7c74685b6936eaa28e4e7e19fef2bbb2eff792789dd5026721b3e60a4"
+    },
+    {
+      "frame_id": "b5_f0",
+      "bin_id": 5,
+      "time_s": 28.796875,
+      "path": "frames/frame_020.jpg",
+      "sha256": "daeeaf48aa82fefc7008f723ae7c5a18b7fd3ee267bb4965a46c9998c499e44f"
+    },
+    {
+      "frame_id": "b5_f1",
+      "bin_id": 5,
+      "time_s": 29.296875,
+      "path": "frames/frame_021.jpg",
+      "sha256": "b93f47bb226af94b1e82d609ea6563e0e4f1df14fe1ecb947cb59a0a6fa5c787"
+    },
+    {
+      "frame_id": "b5_f2",
+      "bin_id": 5,
+      "time_s": 29.796875,
+      "path": "frames/frame_022.jpg",
+      "sha256": "1ee5437dcd60dc04fbf45af5ad500a1aaeef3305277f5f68415dd33ba897bc97"
+    },
+    {
+      "frame_id": "b5_f3",
+      "bin_id": 5,
+      "time_s": 30.296875,
+      "path": "frames/frame_023.jpg",
+      "sha256": "a39bd4813cfeb0107e99ca5a6dad2bbb969beb361b7e1c83c894d899668b0c17"
+    },
+    {
+      "frame_id": "b6_f0",
+      "bin_id": 6,
+      "time_s": 30.796875,
+      "path": "frames/frame_024.jpg",
+      "sha256": "e509d4f9c7f3aad4cd82806ecda9d66b072895b6e4bb64e1d0e5de7b88db189b"
+    },
+    {
+      "frame_id": "b6_f1",
+      "bin_id": 6,
+      "time_s": 31.296875,
+      "path": "frames/frame_025.jpg",
+      "sha256": "4952de96b0fc7e5e540aea8fa427e3d23448db7015a9e99758db7c3120cb6e34"
+    },
+    {
+      "frame_id": "b6_f2",
+      "bin_id": 6,
+      "time_s": 31.796875,
+      "path": "frames/frame_026.jpg",
+      "sha256": "e67173945f4adb56da9dd27f071789fb446de3510a2919be48e2aec5d8da48bc"
+    },
+    {
+      "frame_id": "b6_f3",
+      "bin_id": 6,
+      "time_s": 32.296875,
+      "path": "frames/frame_027.jpg",
+      "sha256": "dc58aa6fbd2dad2887ed5aa474cab4e035c8f5b70d8fb9625aaee7b6b1b6c745"
+    },
+    {
+      "frame_id": "b7_f0",
+      "bin_id": 7,
+      "time_s": 32.796875,
+      "path": "frames/frame_028.jpg",
+      "sha256": "8b4024a6f9b8c2d39fa7859c6132d5437ac06bd83b4c9707432f0a02290cd888"
+    },
+    {
+      "frame_id": "b7_f1",
+      "bin_id": 7,
+      "time_s": 33.296875,
+      "path": "frames/frame_029.jpg",
+      "sha256": "b0d4c3a38ee303c4936de62e695de04233bb79907a23b0f20d9ddf2d293d2416"
+    },
+    {
+      "frame_id": "b7_f2",
+      "bin_id": 7,
+      "time_s": 33.796875,
+      "path": "frames/frame_030.jpg",
+      "sha256": "ed28a5aaf198fce66c76f56aca8180d1be13140048388e6844cced04b29e7d31"
+    },
+    {
+      "frame_id": "b7_f3",
+      "bin_id": 7,
+      "time_s": 34.296875,
+      "path": "frames/frame_031.jpg",
+      "sha256": "405a42964b69334d4d7863f161b9d43a2de46c6353b0ec9d1145efc344f49184"
+    },
+    {
+      "frame_id": "b8_f0",
+      "bin_id": 8,
+      "time_s": 34.796875,
+      "path": "frames/frame_032.jpg",
+      "sha256": "aa35246ee9f3c08e09abfb479ae869b7663bd9dc80e7b72cb7d507705a406b23"
+    },
+    {
+      "frame_id": "b8_f1",
+      "bin_id": 8,
+      "time_s": 35.296875,
+      "path": "frames/frame_033.jpg",
+      "sha256": "ad5be9d0e9bba997da0aeb276ff07beb41ca075ede3375ab071675248f154975"
+    },
+    {
+      "frame_id": "b8_f2",
+      "bin_id": 8,
+      "time_s": 35.796875,
+      "path": "frames/frame_034.jpg",
+      "sha256": "5e0e0b70e3bebb2ee863199075e399734e3453461273c843a84934fab42e211a"
+    },
+    {
+      "frame_id": "b8_f3",
+      "bin_id": 8,
+      "time_s": 36.296875,
+      "path": "frames/frame_035.jpg",
+      "sha256": "503d7c7d703d6c70647b9283befb264e2eccc8931777d082960e31da3a13597d"
+    },
+    {
+      "frame_id": "b9_f0",
+      "bin_id": 9,
+      "time_s": 36.796875,
+      "path": "frames/frame_036.jpg",
+      "sha256": "90fd315ce2bcfab74c33c7c6264fefcba9e3f1caed94af57780d0a561eba0f37"
+    },
+    {
+      "frame_id": "b9_f1",
+      "bin_id": 9,
+      "time_s": 37.296875,
+      "path": "frames/frame_037.jpg",
+      "sha256": "f754794f58ed9f21ada5f45eba2438531c5ecab0c11ff9d8cac9f8937d606b0a"
+    },
+    {
+      "frame_id": "b9_f2",
+      "bin_id": 9,
+      "time_s": 37.796875,
+      "path": "frames/frame_038.jpg",
+      "sha256": "3481f82063b9bf84befc4e589aa372fc68c98a127c7fc7396bbadd21fe16e45b"
+    },
+    {
+      "frame_id": "b9_f3",
+      "bin_id": 9,
+      "time_s": 38.296875,
+      "path": "frames/frame_039.jpg",
+      "sha256": "7cdbceb0fcf3804415188b32d25b38271f11a43e22df590dcc25f763ebafa2bb"
+    },
+    {
+      "frame_id": "b10_f0",
+      "bin_id": 10,
+      "time_s": 38.796875,
+      "path": "frames/frame_040.jpg",
+      "sha256": "b7afc73c9119dff151328f972958e6861b33e1e9af74045b68ddeeb095dcbb8c"
+    },
+    {
+      "frame_id": "b10_f1",
+      "bin_id": 10,
+      "time_s": 39.296875,
+      "path": "frames/frame_041.jpg",
+      "sha256": "f365baf08959d4b4eaf9e59fbe125aa9070761e15d3e434cea7fdf89eaeff37a"
+    },
+    {
+      "frame_id": "b10_f2",
+      "bin_id": 10,
+      "time_s": 39.796875,
+      "path": "frames/frame_042.jpg",
+      "sha256": "25a3697865407cd91d1fcb5029326e36f6510fd104841ca656b58986c84a4226"
+    },
+    {
+      "frame_id": "b10_f3",
+      "bin_id": 10,
+      "time_s": 40.296875,
+      "path": "frames/frame_043.jpg",
+      "sha256": "fec52061bb920098ca20d2f423b62bcefa99ac8016433754680752bf868bc404"
+    },
+    {
+      "frame_id": "b11_f0",
+      "bin_id": 11,
+      "time_s": 40.796875,
+      "path": "frames/frame_044.jpg",
+      "sha256": "1a57337d05a996dbf6e6da8dbab777f41a95dd153dd44ae552c8dfe332e5a19a"
+    },
+    {
+      "frame_id": "b11_f1",
+      "bin_id": 11,
+      "time_s": 41.296875,
+      "path": "frames/frame_045.jpg",
+      "sha256": "3fcfcbea15770de6158f38d5744acf824ded53a795d6460206809a0f46c54aa8"
+    },
+    {
+      "frame_id": "b11_f2",
+      "bin_id": 11,
+      "time_s": 41.796875,
+      "path": "frames/frame_046.jpg",
+      "sha256": "3d3829f13666b80b43ddc5aea4d3ee32379dac01da5775e042c8b1c0b3fa4446"
+    },
+    {
+      "frame_id": "b11_f3",
+      "bin_id": 11,
+      "time_s": 42.296875,
+      "path": "frames/frame_047.jpg",
+      "sha256": "c827bb5be36be7d774705ffd0f497b5043e8d9dcee9de7de1861b64df679cfb9"
+    },
+    {
+      "frame_id": "anchor_f0",
+      "bin_id": null,
+      "time_s": 47.546875,
+      "path": "frames/frame_048.jpg",
+      "sha256": "30868b17b2160249b4d5da06df76f2a731de168af9dad5d343172ee9cbcb6a5e"
+    },
+    {
+      "frame_id": "anchor_f1",
+      "bin_id": null,
+      "time_s": 48.046875,
+      "path": "frames/frame_049.jpg",
+      "sha256": "334ba7f74ef9acc9278f58d9c18728fc3f130d64e5db4e8ebc33423f9fc26dec"
+    },
+    {
+      "frame_id": "anchor_f2",
+      "bin_id": null,
+      "time_s": 48.546875,
+      "path": "frames/frame_050.jpg",
+      "sha256": "7693baed964a6d4f85181cacbc16b95dc87dc2788357a3393807f5c03466fc02"
+    },
+    {
+      "frame_id": "anchor_f3",
+      "bin_id": null,
+      "time_s": 49.046875,
+      "path": "frames/frame_051.jpg",
+      "sha256": "204505d6b22fea325e9c568d7845d26e8a870c21b1ca57032daba503c605709d"
+    }
+  ],
+  "status": "ready",
+  "reason": null,
+  "extra_clip_seconds": 12.0,
+  "evaluation": "NOT_EVALUATED",
+  "ai_analysis": "NOT_RUN",
+  "source_frame_interval_s": 0.05,
+  "fixed_context": [
+    {
+      "start_s": 30.546875,
+      "end_s": 42.546875,
+      "actual_duration_s": 12.0,
+      "frame_tolerance_s": 0.05,
+      "path": "media/fixed_1.mp4"
+    }
+  ]
+}

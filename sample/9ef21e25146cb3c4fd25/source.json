@@ -1,0 +1,25 @@
+{
+  "repo": "blanchon/opencs2_dataset",
+  "revision": "8d7deddcd30c081fb197b75f58b4a0fba1117b9d",
+  "full_source_included": false,
+  "source_video_sha256": "0f5e87106ada29bdb4bff1e1e02eaca7965465f80934583ed55a215c2f1a9f0b",
+  "attacker_ticks_sha256": "4e11f0b4478369d0491d704688cf39787c6bd56602a6fe43d6ed05248fb8c450",
+  "assets": {
+    "source_video": {
+      "repo": "blanchon/opencs2_dataset",
+      "revision": "8d7deddcd30c081fb197b75f58b4a0fba1117b9d",
+      "path": "rounds/match_id=2392334/map_name=de_dust2/round=02/player=06/video.preview.mp4",
+      "bytes": 11339334,
+      "sha256": "0f5e87106ada29bdb4bff1e1e02eaca7965465f80934583ed55a215c2f1a9f0b",
+      "retrieved_at": "2026-10-17T16:01:08.125036+00:00"
+    },
+    "attacker_ticks": {
+      "repo": "blanchon/opencs2_dataset",
+      "revision": "8d7deddcd30c081fb197b75f58b4a0fba1117b9d",
+      "path": "rounds/match_id=2392334/map_name=de_dust2/round=02/player=06/ticks.parquet",
+      "bytes": 139670,
+      "sha256": "4e11f0b4478369d0491d704688cf39787c6bd56602a6fe43d6ed05248fb8c450",
+      "retrieved_at": "2026-10-17T16:01:09.961871+00:00"
+    }
+  }
+}
