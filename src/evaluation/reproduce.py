@@ -4,8 +4,8 @@
 """Recalculate the submitted latest retrieval result from locked exported bin data."""
 
 import json
-from caer.config import SAMPLE
-from caer.ingestion.io import sha
+from src.config import SAMPLE
+from src.ingestion.io import sha
 
 
 def reference_consistency(data):

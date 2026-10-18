@@ -4,8 +4,8 @@
 import subprocess
 from pathlib import Path
 from PIL import Image, ImageDraw
-from caer.media.clips import frame_interval
-from caer.ingestion.io import sha, write_json
+from src.media.clips import frame_interval
+from src.ingestion.io import sha, write_json
 
 
 # 입력: 사건 package와 저장 폴더. 출력: 프레임 ID·구간 ID·원본 시각·경로·해시 목록.

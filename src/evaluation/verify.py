@@ -4,11 +4,11 @@
 """Verify sample integrity, latest-rule selections, citations and playable media."""
 
 import subprocess
-from caer.pipeline import load_packages
-from caer.analysis.visual import latest_analysis, verify_inputs
-from caer.retrieval.v7 import predict, intervals
-from caer.media.clips import duration
-from caer.evaluation.reproduce import reproduce
+from src.pipeline import load_packages
+from src.analysis.visual import latest_analysis, verify_inputs
+from src.retrieval.v7 import predict, intervals
+from src.media.clips import duration
+from src.evaluation.reproduce import reproduce
 
 
 # 출력: 검증 상태, 사례별 프레임·설명 개수, 평가 수치 재현 여부.
@@ -25,7 +25,7 @@ def verify():
         frames = verify_inputs(package)
         report = latest_analysis(package)
         if report is None:
-            raise ValueError("AI report missing; run caer analyze for generated cases")
+            raise ValueError("AI report missing; run poc analyze for generated cases")
         # 화면에서 강조한 사진도 실제 AI가 인용한 사진이어야 한다.
         if package.get("presentation"):
             focus = package["presentation"]

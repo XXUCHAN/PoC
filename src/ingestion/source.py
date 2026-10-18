@@ -8,7 +8,7 @@ import json
 import urllib.request
 from pathlib import Path, PurePosixPath
 from datetime import datetime, timezone
-from caer.config import DATA, REPO, REVISION
+from src.config import DATA, REPO, REVISION
 
 
 # 입력: 고정 데이터셋의 hf 경로 또는 데이터셋 내부 상대 경로. 출력: 안전한 상대 경로.

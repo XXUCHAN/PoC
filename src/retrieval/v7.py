@@ -8,7 +8,7 @@ import itertools
 from pathlib import Path
 import numpy as np
 from PIL import Image
-from caer.ingestion.schema import read_ticks
+from src.ingestion.schema import read_ticks
 
 # 공개 원본의 장비 이름을 검색 특징에 대응시킨다. 장비 종류 자체가 치팅 증거는 아니다.
 GUNS = frozenset(

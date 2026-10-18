@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 # Python 패키지 정보와 실제 실행 의존성만 정의한다.
 [project]
-name = "caer"
+name = "cs2-review-poc"
 version = "1.0.0"
 description = "CS2 context retrieval and evidence-based AI review PoC"
 requires-python = ">=3.11"
@@ -19,10 +19,11 @@ dependencies = [
     "jsonschema>=4.20", # AI 응답 형식 검사
 ]
 
-# 설치 후 caer 명령을 실행하면 CLI의 main 함수로 연결한다.
+# 설치 후 poc 명령을 실행하면 CLI의 main 함수로 연결한다.
 [project.scripts]
-caer = "caer.interfaces.cli:main"
+poc = "src.interfaces.cli:main"
 
 # src 폴더의 패키지를 찾는다. sample 폴더는 README의 프로젝트 구조 그대로 함께 둔다.
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["."]
+include = ["src", "src.*"]

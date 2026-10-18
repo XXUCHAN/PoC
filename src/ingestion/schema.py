@@ -36,7 +36,7 @@ TICK_REQUIRED = ["tick", "t", "active", "yaw", "pitch", "x", "y", "z", "is_alive
 # 입력: 원본 경로, 사건, 플레이어 슬롯. 출력: 일치한 경기·맵·라운드 키.
 # 경로에 기록된 신원이 사건의 공격자와 다르면 다른 POV일 수 있으므로 중단한다.
 def validate_asset_identity(path, case, slot):
-    from caer.ingestion.source import relative_path
+    from src.ingestion.source import relative_path
 
     rel = relative_path(path)
     match = re.fullmatch(

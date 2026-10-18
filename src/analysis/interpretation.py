@@ -4,7 +4,7 @@
 
 """Separate retrieval coverage, model grounding and scene-link judgments."""
 
-from caer.retrieval.v7 import WEIGHTS
+from src.retrieval.v7 import WEIGHTS
 
 
 def summarize(package, report):

@@ -4,7 +4,7 @@ import hashlib
 import json
 from pathlib import Path
 from datetime import datetime, timezone
-from caer.config import OUTPUTS
+from src.config import OUTPUTS
 
 
 # 입력: 파일 경로. 출력: 내용의 SHA-256 문자열.

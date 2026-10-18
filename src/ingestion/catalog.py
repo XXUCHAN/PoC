@@ -5,8 +5,8 @@
 
 import json
 from pathlib import Path
-from caer.config import SAMPLE
-from caer.ingestion.io import sha
+from src.config import SAMPLE
+from src.ingestion.io import sha
 
 
 # 입력: 샘플 폴더와 상대 경로. 출력: 해당 폴더 안의 절대 경로.
@@ -56,7 +56,7 @@ def load_samples():
 # 입력: 불러온 샘플 package. 출력: 실제 저장 분석과 연결된 근거 사진.
 # 두 AI 응답의 인용과 구간 시각을 검증한 뒤 UI가 사용할 evidence를 구성한다.
 def load_sample_analysis(package):
-    from caer.analysis.visual import verify_inputs, validate_report
+    from src.analysis.visual import verify_inputs, validate_report
 
     folder = Path(package["sample_dir"])
     verify_snapshot(folder)

@@ -4,8 +4,8 @@
 from pathlib import Path
 import os
 
-# CAER_HOME을 지정하지 않으면 src/caer에서 두 단계 위인 프로젝트 루트를 사용한다.
-ROOT = Path(os.environ.get("CAER_HOME", Path(__file__).resolve().parents[2])).resolve()
+# POC_HOME을 지정하지 않으면 src의 상위 폴더를 프로젝트 루트로 사용한다.
+ROOT = Path(os.environ.get("POC_HOME", Path(__file__).resolve().parents[1])).resolve()
 REPO = "blanchon/opencs2_dataset"
 # 공개 원본을 특정 커밋으로 고정해 재실행 때 자료가 달라지는 것을 줄인다.
 REVISION = "8d7deddcd30c081fb197b75f58b4a0fba1117b9d"

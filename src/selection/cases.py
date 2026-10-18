@@ -5,7 +5,7 @@ import hashlib
 import json
 import duckdb
 import pyarrow.parquet as pq
-from caer.ingestion.schema import require_columns, KILL_REQUIRED, POV_REQUIRED
+from src.ingestion.schema import require_columns, KILL_REQUIRED, POV_REQUIRED
 
 
 # 입력: 경기·맵·라운드·킬 ID가 있는 사건 행. 출력: 재현 가능한 20자리 사건 식별자.

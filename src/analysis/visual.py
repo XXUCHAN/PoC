@@ -15,9 +15,9 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from jsonschema import Draft202012Validator
-from caer.config import RUNTIME, MODEL
-from caer.media.frames import contact_sheets
-from caer.ingestion.io import sha, write_json, log
+from src.config import RUNTIME, MODEL
+from src.media.frames import contact_sheets
+from src.ingestion.io import sha, write_json, log
 
 
 # 입력: JSON 객체의 필드 정의. 출력: 모든 필드를 필수로 하고 추가 필드를 막는 스키마.
@@ -300,7 +300,7 @@ def _verify_generated_inputs(package):
         for j, offset in enumerate((0.25, 0.75, 1.25, 1.75))
     }
     length = package["synchronization"]["actual_video_duration_s"]
-    from caer.media.clips import frame_interval
+    from src.media.clips import frame_interval
 
     expected.update(
         {
@@ -330,7 +330,7 @@ def _verify_generated_inputs(package):
 def verify_inputs(package):
     if not package.get("sample_dir"):
         return _verify_generated_inputs(package)
-    from caer.ingestion.catalog import verify_snapshot
+    from src.ingestion.catalog import verify_snapshot
 
     verify_snapshot(Path(package["sample_dir"]))
     selected = package["methods"]["proposed"]
@@ -372,7 +372,7 @@ def analyze_case(case_id, provider="auto", model=None, refresh=False):
         raise ValueError("Invalid case ID")
     package_path = RUNTIME / "cases" / case_id / "package.json"
     if not package_path.is_file():
-        raise ValueError("Run caer run for this v7 case first")
+        raise ValueError("Run poc run for this v7 case first")
     package = json.loads(package_path.read_text())
     frames = verify_inputs(package)
     selected = package["methods"]["proposed"]
@@ -496,7 +496,7 @@ def analyze_case(case_id, provider="auto", model=None, refresh=False):
 # 준비된 샘플은 저장 분석을 검사하며, 생성 자료는 package와 구현 해시가 달라지면 재사용하지 않는다.
 def latest_analysis(package):
     if package.get("sample_dir"):
-        from caer.ingestion.catalog import load_sample_analysis
+        from src.ingestion.catalog import load_sample_analysis
 
         return load_sample_analysis(package)
     latest = RUNTIME / "analysis" / package["case"]["case_id"] / "latest.json"

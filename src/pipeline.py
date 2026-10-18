@@ -8,15 +8,15 @@ import json
 import random
 from pathlib import Path
 import pandas as pd
-from caer.config import ROOT, DATA, RUNTIME, OUTPUTS, REPO, REVISION
-from caer.ingestion.source import download, relative_path
-from caer.ingestion.schema import read_ticks, validate_asset_identity, validate_time
-from caer.ingestion.io import sha, write_json, log
-from caer.ingestion.catalog import load_samples
-from caer.selection.cases import mine
-from caer.retrieval.v7 import bins, intervals, features, predict, WEIGHTS
-from caer.media.clips import duration, export, frame_interval
-from caer.media.frames import sample_frames
+from src.config import ROOT, DATA, RUNTIME, OUTPUTS, REPO, REVISION
+from src.ingestion.source import download, relative_path
+from src.ingestion.schema import read_ticks, validate_asset_identity, validate_time
+from src.ingestion.io import sha, write_json, log
+from src.ingestion.catalog import load_samples
+from src.selection.cases import mine
+from src.retrieval.v7 import bins, intervals, features, predict, WEIGHTS
+from src.media.clips import duration, export, frame_interval
+from src.media.frames import sample_frames
 
 ALGORITHM = "persistent_balanced"
 
@@ -128,11 +128,11 @@ def case_run(case, fetch=True):
     source_hashes = {
         name: sha(ROOT / name)
         for name in [
-            "src/caer/pipeline.py",
-            "src/caer/retrieval/v7.py",
-            "src/caer/ingestion/schema.py",
-            "src/caer/media/frames.py",
-            "src/caer/media/clips.py",
+            "src/pipeline.py",
+            "src/retrieval/v7.py",
+            "src/ingestion/schema.py",
+            "src/media/frames.py",
+            "src/media/clips.py",
         ]
     }
     package.update(
